@@ -316,4 +316,35 @@ main {
 }
 
 @media screen and (min-width: 1200px) {
+    #menu a:hover {
+        border-bottom: 1px solid #313131;
+      }
+    
+      #logo {
+        font-size: 260%;
+      }
+
+      #cover-text {
+        font-size: 180%;
+        width: 300px;
+        right: 50px;
+        
+      }
+
+      #hero {
+        height: 600px;
+      }
+
+      #location {
+        height: 900px;
+        background: url(../assets/images/scorrier-house.jpeg) no-repeat center top/cover;
+      }
+    
+      #about-us {
+        text-align: center;
+        padding: 5%;
+        display: flex;
+        font-size: 150%;
+        line-height: 40px;
+      }
 }
