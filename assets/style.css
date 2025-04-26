@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    background-color:#1a1a1a;
+  background-color: #1a1a1a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -105,6 +105,26 @@ main {
   flex-direction: column;
 }
 
+#location {
+  display: flex;
+  max-height: 500px;
+  width: 100%;
+  position: relative;
+  background: url(../assets/images/scorrier-house.jpeg) no-repeat center
+    center/cover;
+}
+
+#about-us {
+  display: flex;
+  max-height: 500px;
+  background-color: rgba(12, 12, 12, 0.6);
+  font-size: 110%;
+  width: 100%;
+  min-height: 200px;
+  padding-top: 10%;
+  padding: 5%;
+}
+
 /* Hero section */
 #hero {
   height: 300px;
@@ -118,7 +138,7 @@ main {
   /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(12, 12, 12, 0.5);
   border-radius: 5%;
-  font-size: 100%;
+  font-size: 110%;
   position: absolute;
   bottom: 30px;
   width: 70%;
@@ -144,7 +164,7 @@ main {
 
 /* Form */
 #signup {
-  background-image: url("../images/signup-image.webp");
+  background-image: url("");
   background-size: cover;
   background-position: 75%;
   padding: 20px 10% 0 10%;
@@ -173,26 +193,13 @@ main {
   padding: 0 5px;
 }
 
-.radio-buttons {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.join-button {
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px;
-  font-size: 100%;
-  background-color: #454b1b;
-  color: #fafafa;
-}
-
 /* Footer */
 
 #social-networks {
+  background-color: #1a1a1a solid;
+  z-index: 4;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -244,7 +251,12 @@ main {
   /* Main content */
   main {
     /* Push main content down to accommodate larger header */
-    margin-top: 79px;
+    margin-top: 80px;
+  }
+
+  #about-us {
+    padding: 10%;
+    display: flex;
   }
 
   /* Hero */
@@ -285,6 +297,12 @@ main {
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #313131;
+  }
+
+  #about-us {
+    padding: 5%;
+    display: flex;
+    font-size: 150%;
   }
 
   /* Gallery */
