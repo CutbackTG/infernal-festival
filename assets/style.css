@@ -346,6 +346,20 @@ main {
     display: inline-flex;
     font-size: 25px;
   }
+
+  #sponsor-logos {
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    height: 120px;
+    gap: 60px;
+  }
+
+  #sponsor-logo {
+    height: 120px;
+    max-width: 120px;
+  }
+
 }
 
 /* Laptops - min-width: 992px */
@@ -383,7 +397,7 @@ main {
       text-align: center;
       padding: 10px 10px;
       height: 150px;
-      gap: 50px;
+      gap: 60px;
     }
 
     #sponsor-logo {
