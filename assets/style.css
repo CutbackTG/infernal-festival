@@ -8,13 +8,16 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* General styles */
 body {
   background-color: #1a1a1a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* Generic project styles */
   color: whitesmoke;
   font-family: "Lato", sans-serif;
 }
@@ -54,6 +57,18 @@ header a {
   color: #e50000;
 }
 
+/* Navbar */
+nav {
+  position: absolute;
+  background-color: #313131;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+}
+
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
@@ -64,23 +79,6 @@ header a {
   margin-bottom: 1em;
 }
 
-.active {
-  border-bottom: 1px solid #e50000;
-}
-
-/* Navbar styles with dropdown toggle */
-nav {
-  position: absolute;
-  background-color: #313131;
-  width: 100%;
-  left: 0;
-  padding: 0 1rem;
-  box-shadow: 0 2px 2px #3a3a3a;
-  display: none;
-  top: 100%;
-}
-
-/* Nav toggle */
 #nav-toggle:checked ~ nav {
   display: block;
 }
@@ -94,35 +92,16 @@ nav {
   color: whitesmoke;
 }
 
+.active {
+  border-bottom: 1px solid #e50000;
+}
+
 /* Main content */
 main {
-  /* Enlarge main element to push footer down*/
   flex: 1 0 auto;
-  /* Add margin at the top to prevent content from being covered by the header */
   margin-top: 47px;
-  /* Enable flex properties for child elements */
   display: flex;
   flex-direction: column;
-}
-
-#location {
-  display: flex;
-  max-height: 500px;
-  width: 100%;
-  position: relative;
-  background: url(../assets/images/scorrier-house.jpeg) no-repeat center
-    center/cover;
-}
-
-#about-us {
-  display: flex;
-  max-height: 500px;
-  background-color: rgba(12, 12, 12, 0.6);
-  font-size: 110%;
-  width: 100%;
-  min-height: 200px;
-  padding-top: 10%;
-  padding: 5%;
 }
 
 /* Hero section */
@@ -135,7 +114,6 @@ main {
 }
 
 #cover-text {
-  /* Final rgba value sets the opacity so it is semi-transparent */
   background-color: rgba(12, 12, 12, 0.5);
   border-radius: 5%;
   font-size: 110%;
@@ -146,20 +124,82 @@ main {
   padding-top: 50px;
   padding-left: 10px;
 }
-
 #cover-text > h2,
 #cover-text > h3 {
   color: whitesmoke;
 }
 
+#cta {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  column-count: 12;
+}
+
+#button-list {
+  columns: 12;
+  gap: 10vw; /* responsive spacing between buttons */
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.cta-button {
+  background-color: #313131;
+  border: none;
+  color: whitesmoke;
+  padding: 15px 30px;
+  display: inline-flex;
+  font-size: 3vw;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1a1a1a;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e50000;
+  color: #1a1a1a;
+}
+
+/* Location section */
+#location {
+  display: flex;
+  max-height: 500px;
+  width: 100%;
+  position: relative;
+  background: url(../assets/images/scorrier-house.jpeg) no-repeat center
+    center/cover;
+}
+
+/* About section */
+#about-us {
+  display: flex;
+  background-color: rgba(12, 12, 12, 0.6);
+  font-size: 110%;
+  width: 100%;
+  min-height: 200px;
+  padding: 10% 5% 5% 5%;
+}
+
 /* Gallery page */
+#photos {
+  line-height: 0;
+}
+
 #photos img {
   width: 100%;
   line-height: 1em;
-}
-
-#photos {
-  line-height: 0;
 }
 
 /* Form */
@@ -169,6 +209,7 @@ main {
   background-position: 75%;
   padding: 20px 10% 0 10%;
   flex-grow: 1;
+  position: relative;
 }
 
 #signup-form {
@@ -193,10 +234,28 @@ main {
   padding: 0 5px;
 }
 
-/* Footer */
+.text-input:hover {
+  border-color: #313131;
+}
 
+.join-button {
+  background-color: #454b1b;
+  color: #fafafa;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #454b1b;
+}
+
+/* Footer */
 #social-networks {
-  background-color: #1a1a1a solid;
+  background-color: #1a1a1a;
   z-index: 4;
   text-align: center;
   padding: 15px 0;
@@ -211,7 +270,9 @@ main {
   color: whitesmoke;
 }
 
-/* Media query: large or landscape phones (576px and up) */
+/* Media Queries */
+
+/* Phones - min-width: 576px */
 @media screen and (min-width: 576px) {
   #photos {
     column-count: 2;
@@ -219,9 +280,8 @@ main {
   }
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Tablets - min-width: 768px */
 @media screen and (min-width: 768px) {
-  /* Header */
   nav {
     display: block;
     position: relative;
@@ -236,6 +296,7 @@ main {
 
   #menu > li {
     padding-left: 1rem;
+    margin-bottom: 0;
   }
 
   .nav-toggle-label {
@@ -248,32 +309,21 @@ main {
     margin: 0 0.5rem;
   }
 
-  /* Main content */
   main {
-    /* Push main content down to accommodate larger header */
     margin-top: 80px;
   }
 
   #about-us {
     padding: 10%;
-    display: flex;
   }
 
-  /* Hero */
   #cover-text {
     width: 300px;
     right: 50px;
   }
 
-  /* Gallery */
   #photos {
     column-count: 3;
-  }
-
-  /* Form */
-  #signup {
-    background-position: center;
-    position: relative;
   }
 
   #signup-form {
@@ -282,18 +332,9 @@ main {
     left: 10%;
     top: 150px;
   }
-
-  .text-input:hover {
-    border-color: #313131;
-  }
-
-  .join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
-  }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
+/* Laptops - min-width: 992px */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #313131;
@@ -305,46 +346,53 @@ main {
 
   #about-us {
     padding: 5%;
-    display: flex;
     font-size: 150%;
   }
 
-  /* Gallery */
   #photos {
     column-count: 4;
   }
 }
 
+/* Desktops - min-width: 1200px */
 @media screen and (min-width: 1200px) {
-    #menu a:hover {
-        border-bottom: 1px solid #313131;
-      }
-    
-      #logo {
-        font-size: 260%;
-      }
+  #menu a:hover {
+    border-bottom: 1px solid #313131;
+  }
 
-      #cover-text {
-        font-size: 180%;
-        width: 300px;
-        right: 50px;
-        
-      }
+  #logo {
+    font-size: 260%;
+  }
 
-      #hero {
-        height: 600px;
-      }
+  #cover-text {
+    font-size: 180%;
+    width: 300px;
+    right: 50px;
+  }
 
-      #location {
-        height: 900px;
-        background: url(../assets/images/scorrier-house.jpeg) no-repeat center top/cover;
-      }
-    
-      #about-us {
-        text-align: center;
-        padding: 5%;
-        display: flex;
-        font-size: 150%;
-        line-height: 40px;
-      }
+  #hero {
+    height: 600px;
+  }
+
+  #location {
+    height: 900px;
+    background: url(../assets/images/scorrier-house.jpeg) no-repeat center
+      top/cover;
+  }
+
+  #about-us {
+    text-align: center;
+    padding: 5%;
+    font-size: 150%;
+    line-height: 40px;
+  }
+
+  .cta-button {
+    background-color: #313131;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 30px;
+    display: inline-flex;
+    font-size: 24px;
+  }
 }
