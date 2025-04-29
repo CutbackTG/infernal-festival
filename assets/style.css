@@ -275,7 +275,7 @@ a:hover {
 #social-networks {
   background-color: #1a1a1a;
   z-index: 4;
-  text-align: center;
+  align-items: center;
   padding: 15px 0;
   display: flex;
   justify-content: space-evenly;
@@ -428,16 +428,18 @@ a:hover {
   }
   #top-btn {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 5px;
+    right: 5px;
     z-index: 99;
-    font-size: 15px;
+    font-size: 30px;
     border: none;
     outline: none;
     background-color: #e50000;
     color: #1a1a1a;
     cursor: pointer;
-    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
     border-radius: 4px;
   }
   #btn:hover {
