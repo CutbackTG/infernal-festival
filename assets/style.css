@@ -128,6 +128,7 @@ main {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #cover-text > h2,
 #cover-text > h3 {
   color: whitesmoke;
@@ -144,10 +145,10 @@ main {
 
 #button-list {
   columns: 12;
-  gap: 16vw; /* responsive spacing between buttons */
+  gap: 16vw;
+  /* responsive spacing between buttons */
   display: flex;
   font-family: "Oswald", sans-serif;
-  font-kerning: 5px;
   justify-content: space-evenly;
   margin-top: 10px;
   list-style-type: none;
@@ -219,8 +220,48 @@ main {
   text-decoration: none;
   z-index: 1000;
 }
+
 #top-btn:hover {
   background-color: #333;
+}
+
+#sponsors {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#sponsors h4 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+#sponsor-logos {
+  height: 80px;
+  padding: 15px;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  line-height: 1em;
+}
+
+#sponsor-logo, #sponsor-logo-mh {
+  display: flex;
+  height: 60px;
+  /* consistent height */
+  max-width: 60px;
+  /* prevent logos from being too wide */
+  width: auto;
+  /* preserve original aspect ratio */
+  object-fit: contain;
+  filter:brightness(120%);
+  /* make logos brighter */
+}
+
+#sponsor-logo-mh {
+  filter: brightness(0) invert(1); /* optional: makes logos white if SVGs are black */
+  transition: transform 0.3s ease;
 }
 
 /* Footer */
@@ -328,18 +369,39 @@ main {
   }
 
   .cta-button-buy-tickets,
-.cta-button-line-up {
-  background-color: #313131;
-  border: none;
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 15px 30px;
-  display: inline-flex;
-  font-size: 30px;
-}
+  .cta-button-line-up {
+    background-color: #313131;
+    border: none;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 30px;
+    display: inline-flex;
+    font-size: 30px;
 
-/* Desktops - min-width: 1200px */
-@media screen and (min-width: 1200px) {}
+    #sponsor-logos {
+      background-color: black;
+      display: flex;
+      text-align: center;
+      padding: 10px 10px;
+      height: 150px;
+      gap: 50px;
+    }
+
+    #sponsor-logo {
+      height: 125px;
+      /* consistent height */
+      max-width: 125px;
+      /* prevent logos from being too wide */
+      width: auto;
+      /* preserve original aspect ratio */
+      object-fit: contain;
+    }
+  }
+
+  /* Desktops - min-width: 1200px */
+  @media screen and (min-width: 1200px) {
+  }
+
   #menu a:hover {
     border-bottom: 1px solid #313131;
   }
@@ -372,47 +434,74 @@ main {
   }
 
   .cta-button-buy-tickets,
-.cta-button-line-up {
-  background-color: #313131;
-  border: none;
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 15px 30px;
-  display: inline-flex;
-  font-size: 30px;
-}
+  .cta-button-line-up {
+    background-color: #313131;
+    border: none;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 30px;
+    display: inline-flex;
+    font-size: 30px;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
-body {
-  height: 1000px;
-}
-#top {
-  height: 0px;
-}
-#middle {
-  margin-top: 500px;
-}
-#top-btn {
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
-  background-color: #e50000;
-  color: white;
-  padding-top: 0px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 5%;
-  font-size: 30px;
-  text-decoration: none;
-  z-index: 1000;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
-#top-btn:hover {
-  background-color: #333;
-}
+  body {
+    height: 1000px;
+  }
 
-#btn:hover {
-  background-color: #e50000;
+  #top {
+    height: 0.5px;
+  }
+
+  #middle {
+    margin-top: 500px;
+  }
+
+  #top-btn {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    background-color: #e50000;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5%;
+    font-size: 30px;
+    text-decoration: none;
+    z-index: 1000;
+  }
+
+  #top-btn:hover {
+    background-color: #333;
+  }
+
+  #btn:hover {
+    background-color: #e50000;
+  }
+
+  #sponsor-logos {
+    background-color: black;
+    display: flex;
+    text-align: center;
+    padding: 10px 10px;
+    height: 150px;
+    gap: 50px;
+  }
+
+  h4 {
+    font-size: 40px;
+  }
+
+  #sponsor-logo {
+    height: 150px;
+    /* consistent height */
+    max-width: 150px;
+    /* prevent logos from being too wide */
+    width: auto;
+    /* preserve original aspect ratio */
+    object-fit: contain;
+  }
 }
