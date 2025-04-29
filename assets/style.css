@@ -29,6 +29,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: whitesmoke;
+  margin: 2px;
 }
 
 .hidden-heading {
@@ -114,15 +115,18 @@ main {
 }
 
 #cover-text {
+  text-align: center;
   background-color: rgba(12, 12, 12, 0.5);
   border-radius: 5%;
   font-size: 110%;
   position: absolute;
   bottom: 30px;
   width: 70%;
+  right: 0px;
   min-height: 200px;
   padding-top: 50px;
   padding-left: 10px;
+  padding-right: 10px;
 }
 #cover-text > h2,
 #cover-text > h3 {
@@ -140,23 +144,28 @@ main {
 
 #button-list {
   columns: 12;
-  gap: 10vw; /* responsive spacing between buttons */
+  gap: 16vw; /* responsive spacing between buttons */
   display: flex;
+  font-family: "Oswald", sans-serif;
+  font-kerning: 5px;
   justify-content: space-evenly;
   margin-top: 10px;
   list-style-type: none;
 }
 
-.cta-button {
+.cta-button-buy-tickets,
+.cta-button-line-up {
   background-color: #313131;
   border: none;
+  text-decoration: none;
   color: whitesmoke;
   padding: 15px 30px;
   display: inline-flex;
-  font-size: 3vw;
+  font-size: 20px;
 }
 
-.cta-button:hover {
+.cta-button-buy-tickets:hover,
+.cta-button-line-up:hover {
   background-color: #e50000;
   color: #1a1a1a;
 }
@@ -178,6 +187,7 @@ main {
 /* About section */
 #about-us {
   display: flex;
+  text-align: center;
   background-color: rgba(12, 12, 12, 0.6);
   font-size: 110%;
   width: 100%;
@@ -201,15 +211,16 @@ main {
   right: 5px;
   background-color: #e50000;
   color: white;
-  padding: 8px;
+  padding: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
   border-radius: 5%;
   font-size: 24px;
   text-decoration: none;
   z-index: 1000;
-  transition: background-color 0.3s;
 }
 #top-btn:hover {
-  background-color: #333;
+  background-color: #1a1a1a;
 }
 
 /* Footer */
@@ -285,12 +296,15 @@ main {
     column-count: 3;
   }
 
-  #signup-form {
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 150px;
-  }
+  .cta-button-buy-tickets,
+.cta-button-line-up {
+  background-color: #313131;
+  border: none;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 15px 30px;
+  display: inline-flex;
+  font-size: 25px;
 }
 
 /* Laptops - min-width: 992px */
@@ -311,6 +325,16 @@ main {
   #photos {
     column-count: 4;
   }
+
+  .cta-button-buy-tickets,
+.cta-button-line-up {
+  background-color: #313131;
+  border: none;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 15px 30px;
+  display: inline-flex;
+  font-size: 30px;
 }
 
 /* Desktops - min-width: 1200px */
@@ -342,18 +366,19 @@ main {
   #about-us {
     text-align: center;
     padding: 5%;
-    font-size: 150%;
+    font-size: 30px;
     line-height: 40px;
   }
 
-  .cta-button {
-    background-color: #313131;
-    border: none;
-    color: whitesmoke;
-    padding: 15px 30px;
-    display: inline-flex;
-    font-size: 24px;
-  }
+  .cta-button-buy-tickets,
+.cta-button-line-up {
+  background-color: #313131;
+  border: none;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 15px 30px;
+  display: inline-flex;
+  font-size: 30px;
 
   html {
     scroll-behavior: smooth;
@@ -373,12 +398,11 @@ main {
     right: 5px;
     background-color: #e50000;
     color: white;
-    padding: 10px;
+    padding: 12px 15px;
     border-radius: 5%;
-    font-size: 24px;
-    text-decoration: none;
+    font-size: 25px;
+    text-decoration:none;
     z-index: 1000;
-    transition: background-color 0.3s;
   }
   
   #top-btn:hover {
