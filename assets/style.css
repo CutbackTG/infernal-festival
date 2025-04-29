@@ -297,14 +297,15 @@ main {
   }
 
   .cta-button-buy-tickets,
-.cta-button-line-up {
-  background-color: #313131;
-  border: none;
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 15px 30px;
-  display: inline-flex;
-  font-size: 25px;
+  .cta-button-line-up {
+    background-color: #313131;
+    border: none;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px 30px;
+    display: inline-flex;
+    font-size: 25px;
+  }
 }
 
 /* Laptops - min-width: 992px */
@@ -379,36 +380,36 @@ main {
   padding: 15px 30px;
   display: inline-flex;
   font-size: 30px;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    height: 1000px;
-  }
-  #top {
-    height: 0px;
-  }
-  #middle {
-    margin-top: 500px;
-  }
-  #top-btn {
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    background-color: #e50000;
-    color: white;
-    padding: 12px 15px;
-    border-radius: 5%;
-    font-size: 25px;
-    text-decoration:none;
-    z-index: 1000;
-  }
-  
-  #top-btn:hover {
-    background-color: #333;
-  }
-  #btn:hover {
-    background-color: #e50000;
-  }
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 1000px;
+}
+#top {
+  height: 0px;
+}
+#middle {
+  margin-top: 500px;
+}
+#top-btn {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #e50000;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 5%;
+  font-size: 25px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+#top-btn:hover {
+  background-color: #333;
+}
+#btn:hover {
+  background-color: #e50000;
 }
