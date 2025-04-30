@@ -29,8 +29,8 @@ RealVisXL v5 Lightning: AI Generation of copyright free images of simulated even
 
 # Links
 
-Website Deployment: [link](https://cutbacktg.github.io/infernal-festival/index.html)
-Github Repository: [link](https://github.com/CutbackTG/infernal-festival)
+- Website Deployment: https://cutbacktg.github.io/infernal-festival/index.html
+- Github Repository: https://github.com/CutbackTG/infernal-festival
 
 # Deployment
 
