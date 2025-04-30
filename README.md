@@ -21,11 +21,11 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 # Technologies Used
 
-HTML5: For the structure and content of the website.
-CSS3: For styling the site with custom layouts and designs.
-Git: Version control to manage project files.
-GitHub Pages: Hosting the live version of the project.
-RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography.
+- HTML5: For the structure and content of the website.
+- CSS3: For styling the site with custom layouts and designs.
+- Git: Version control to manage project files.
+- GitHub Pages: Hosting the live version of the project.
+- RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engline hosted by https://creator.nightcafe.studio/explore 
 
 # Links
 
@@ -39,13 +39,11 @@ If you’d like to clone the project and work locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy
+- Copy
 git clone https://github.com/cutbacktg/infernal-festival.git
 Navigate to the project directory:
 
-bash
-Copy
+- Copy
 cd infernal-festival
 Open index.html in a web browser to view the site.
 
@@ -57,7 +55,7 @@ This section guides you through the process of deploying your web application to
 - A github account.
 - A github repository or clone of with your web project already pushed to it.
 
-***Step 1: Prepare Your Repository***
+**Step 1: Prepare Your Repository**
 Check that your project is in a GitHub repository. If you haven't already created one, follow these steps:
 
 Create a new repository on GitHub:
@@ -77,15 +75,11 @@ Browse the site: View the event site, see the band line-up, contact for informat
 
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. Contributions are welcome to improve features, fix bugs, or enhance the UI.
 
-Fork the repository.
-
-Clone your forked version.
-
-Make your changes and commit them.
-
-Push your changes back to your fork.
-
-Submit a pull request with a description of your changes.
+- Fork the repository.
+- Clone your forked version.
+- Make your changes and commit them.
+- Push your changes back to your fork.
+- Submit a pull request with a description of your changes.
 
 **Acknowledgements**
 
