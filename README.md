@@ -40,11 +40,11 @@ If you’d like to clone the project and work locally, follow these steps:
 **Clone the repository:**
 
 - Copy
-git clone https://github.com/cutbacktg/infernal-festival.git
+'git clone https://github.com/cutbacktg/infernal-festival.git'
 Navigate to the project directory:
 
 - Copy
-cd infernal-festival
+'cd infernal-festival'
 Open index.html in a web browser to view the site.
 
 **Deployment**
@@ -71,12 +71,12 @@ If you have an existing project:
 
 Use the following commands to push your project to Github:
 
-- git init  # If your project isn't already a Git repository
-- git add . # Add all files to the staging area
-- git commit -m "Initial commit"  # Commit the changes
-- git branch -M main  # Rename your default branch to 'main'
-- git remote add origin https://github.com/yourusername/infernal-festival.git  # Replace with your repository URL
-- git push -u origin main  # Push to GitHub
+- 'git init'  # If your project isn't already a Git repository
+- 'git add .' # Add all files to the staging area
+- 'git commit -m "Initial commit"'  # Commit the changes
+- 'git branch -M main'  # Rename your default branch to 'main'
+- 'git remote add origin https://github.com/yourusername/infernal-festival.git'  # Replace with your repository URL
+- 'git push -u origin main'  # Push to GitHub
 
 **Step 2: Enable Github Pages**
 
@@ -116,11 +116,11 @@ Use the following commands to push your project to Github:
  - Edit your files as needed in your local project directory as normal.
 
  2. Commit your changes in your Terminal or command line.
- - git add . (adds all changed files)
- - git commit -m "Update website content" (Commits your changes)
+ - 'git add .' (adds all changed files)
+ - 'git commit -m "Update website content"' (Commits your changes)
 
  3. Push the changes to Github:
- - git push origin main (Push to Github main branch)
+ - 'git push origin main' (Push to Github main branch)
 
  4. Wait for Github Pages to rebuild the site:
  - After pushing your changes, Github Pages will automatically rebuild your site with your new content.
@@ -161,6 +161,7 @@ If you'd like to contribute to this project, feel free to fork the repository, m
 # User Stories
 
 1. First-Time Visitor 1:
+
 *As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
 
 **Acceptance Criteria**
