@@ -2,6 +2,8 @@ Project One: Infernal Festival Website
 ======================================
 **Author:** *Tyler Worth*
 
+![Infernal Festival Responsive Screens]({3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png)
+
 # Project Description
 
 Festival is a dynamic and interactive website designed to simulate the experience of an exciting design and experience of visiting and interacting with informaton in the promotional buildup for a hypothetical live festival event.
@@ -31,6 +33,79 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 - Website Deployment: https://cutbacktg.github.io/infernal-festival/index.html
 - Github Repository: https://github.com/CutbackTG/infernal-festival
+
+# Design
+
+**Wireframes**
+
+# UX
+
+**User Stories**
+
+1. First-Time Visitor 1:
+
+*As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
+
+**Acceptance Criteria**
+- There is a clear, intuitive main navigation menu visible at the top of every page.
+- The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
+- Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
+- Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
+- Ticket pricing, and the festival line-up are each clearly laid out on their own dedicated pages.
+- The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
+- Site structure follows logical paths — no dead ends or hidden links.
+- The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
+- Accessibility is considered (e.g., clear button labels, focus states, screen reader support).
+- Users report finding tickets and line-up info quickly during usability testing (target: under 20 seconds).
+
+**Tasks**
+
+**Content Planning**
+- Create content for "Tour Dates," "Ticket Prices," and "Festival Line-up" pages.
+- Write strong CTA button text (e.g., "Get Your Tickets," "See the Full Line-up").
+
+**Design**
+- Design a clear navigation bar with prominent links to all key sections.
+- Create homepage CTA sections (banner, feature blocks, or sticky buttons) linking directly to "Buy Tickets" and "Line-up."
+- Design mobile navigation (hamburger menu) for smaller screens.
+
+**Development**
+- Build a consistent, site-wide header with a navigation menu.
+Develop dedicated pages for:
+- Ticket Prices (clear breakdown of pricing tiers, early bird discounts, etc.).
+- Festival Line-up (artist names, times, stages if available).
+- Implement anchor links and CTAs on the homepage to key pages.
+- Set up a sticky header (optional) to keep navigation accessible while scrolling.
+
+**Accessibility**
+- Ensure navigation is keyboard navigable and screen reader friendly.
+- Add clear focus indicators for clickable elements.
+- Make CTA buttons descriptive (avoid "Click Here" — be specific like "Buy Festival Tickets").
+
+**Testing**
+- Perform usability testing with first-time visitors — measure how long it takes them to find tour dates, ticket info, and line-up.
+- Test navigation functionality across browsers and devices (desktop, mobile, tablet).
+- Conduct accessibility audits using tools like axe or Lighthouse.
+
+**Performance**
+- Minimize any JavaScript or CSS that could slow down menu interactions.
+- Optimise images/icons used in navigation.
+
+# Accessibility
+
+# Testing
+
+**Lighthouse Rating**
+
+![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
+- This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
+
+![Gallery Page rating]({C812EC33-62AE-46F1-A551-D3CF8394F147}.png)
+- This rating gives an excellent score across performance, accessibility, best practices and SEO.
+
+**Bugs discovered**
+
+**Solved Bugs:**
 
 # Deployment
 
@@ -153,79 +228,6 @@ If you'd like to contribute to this project, feel free to fork the repository, m
 - Make your changes and commit them.
 - Push your changes back to your fork.
 - Submit a pull request with a description of your changes.
-
-# Wireframes
-
-# UX 
-
-# User Stories
-
-1. First-Time Visitor 1:
-
-*As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
-
-**Acceptance Criteria**
-- There is a clear, intuitive main navigation menu visible at the top of every page.
-- The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
-- Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
-- Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
-- Ticket pricing, and the festival line-up are each clearly laid out on their own dedicated pages.
-- The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
-- Site structure follows logical paths — no dead ends or hidden links.
-- The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
-- Accessibility is considered (e.g., clear button labels, focus states, screen reader support).
-- Users report finding tickets and line-up info quickly during usability testing (target: under 20 seconds).
-
-**Tasks**
-
-**Content Planning**
-- Create content for "Tour Dates," "Ticket Prices," and "Festival Line-up" pages.
-- Write strong CTA button text (e.g., "Get Your Tickets," "See the Full Line-up").
-
-**Design**
-- Design a clear navigation bar with prominent links to all key sections.
-- Create homepage CTA sections (banner, feature blocks, or sticky buttons) linking directly to "Buy Tickets" and "Line-up."
-- Design mobile navigation (hamburger menu) for smaller screens.
-
-**Development**
-- Build a consistent, site-wide header with a navigation menu.
-Develop dedicated pages for:
-- Ticket Prices (clear breakdown of pricing tiers, early bird discounts, etc.).
-- Festival Line-up (artist names, times, stages if available).
-- Implement anchor links and CTAs on the homepage to key pages.
-- Set up a sticky header (optional) to keep navigation accessible while scrolling.
-
-**Accessibility**
-- Ensure navigation is keyboard navigable and screen reader friendly.
-- Add clear focus indicators for clickable elements.
-- Make CTA buttons descriptive (avoid "Click Here" — be specific like "Buy Festival Tickets").
-
-**Testing**
-- Perform usability testing with first-time visitors — measure how long it takes them to find tour dates, ticket info, and line-up.
-- Test navigation functionality across browsers and devices (desktop, mobile, tablet).
-- Conduct accessibility audits using tools like axe or Lighthouse.
-
-**Performance**
-- Minimize any JavaScript or CSS that could slow down menu interactions.
-- Optimise images/icons used in navigation.
-
-# Design
-
-# Accessibility
-
-# Lighthouse Rating
-
-![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
-- This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
-
-![Gallery Page rating]({C812EC33-62AE-46F1-A551-D3CF8394F147}.png)
-- This rating gives an excellent score across performance, accessibility, best practices and SEO.
-
-# Testing
-
-**Bugs discovered**
-
-**Solved Bugs:**
 
 # Credits
 
