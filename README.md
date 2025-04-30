@@ -216,10 +216,10 @@ Develop dedicated pages for:
 # Lighthouse Rating
 
 ![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
-This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
+- This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
 ![Gallery Page rating]({C812EC33-62AE-46F1-A551-D3CF8394F147}.png)
-This rating gives an excellent score across performance, accessibility, best practices and SEO.
+- This rating gives an excellent score across performance, accessibility, best practices and SEO.
 
 # Testing
 
