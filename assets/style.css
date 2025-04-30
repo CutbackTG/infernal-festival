@@ -109,7 +109,7 @@ main {
 #hero {
   height: 300px;
   width: 100%;
-  background: url("../assets/images/heroimage.webp") no-repeat center
+  background: url("images/heroimage.webp") no-repeat center
     bottom/cover;
   position: relative;
 }
@@ -181,7 +181,7 @@ main {
   max-height: 500px;
   width: 100%;
   position: relative;
-  background: url(../assets/images/scorrier-house.jpeg) no-repeat center
+  background: url(images/scorrier-house.webp) no-repeat center
     center/cover;
 }
 
@@ -435,7 +435,7 @@ main {
 
   #location {
     height: 900px;
-    background: url(../assets/images/scorrier-house.jpeg) no-repeat center
+    background: url(images/scorrier-house.webp) no-repeat center
       top/cover;
   }
 
