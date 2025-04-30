@@ -37,7 +37,7 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 **Installation**
 If you’d like to clone the project and work locally, follow these steps:
 
-Clone the repository:
+**Strong**Clone the repository:**Strong**
 
 - Copy
 git clone https://github.com/cutbacktg/infernal-festival.git
