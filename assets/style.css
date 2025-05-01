@@ -24,7 +24,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -240,7 +241,7 @@ main {
   text-align: center;
   background-color: rgba(12, 12, 12, 0.5);
   border-radius: 5%;
-  font-size: 110%;
+  font-size: 3vw;
   position: absolute;
   justify-content: center;
   bottom: 20px;
@@ -328,6 +329,18 @@ main {
     column-count: 2;
     column-gap: 0;
   }
+
+  #lineup-lower-section {
+    height: 400px;
+  }
+
+  #lineup-cover-text {
+    font-size: 3vw;
+  }
+
+  #lineup-cover-text > h4 {
+    font-size: 2vw;
+  }
 }
 
 /* Tablets - min-width: 768px */
@@ -398,6 +411,18 @@ main {
   #sponsor-logo {
     height: 120px;
     max-width: 120px;
+  }
+
+  #lineup-lower-section {
+    height: 400px;
+  }
+
+  #lineup-cover-text {
+    font-size: 3vw;
+  }
+
+  #lineup-cover-text > h4 {
+    font-size: 2vw;
   }
 }
 
@@ -544,6 +569,18 @@ main {
 
   h4 {
     font-size: 40px;
+  }
+
+  #lineup-lower-section {
+    height: 300px;
+  }
+
+  #lineup-cover-text {
+    font-size: 2vw;
+  }
+
+  #lineup-cover-text > h4 {
+    font-size: 2vw;
   }
 
   #sponsor-logo {
