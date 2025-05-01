@@ -109,8 +109,7 @@ main {
 #hero {
   height: 300px;
   width: 100%;
-  background: url("images/heroimage.webp") no-repeat center
-    bottom/cover;
+  background: url("images/heroimage.webp") no-repeat center bottom/cover;
   position: relative;
 }
 
@@ -181,8 +180,7 @@ main {
   max-height: 500px;
   width: 100%;
   position: relative;
-  background: url(images/scorrier-house.webp) no-repeat center
-    center/cover;
+  background: url(images/scorrier-house.webp) no-repeat center center/cover;
 }
 
 /* About section */
@@ -225,6 +223,47 @@ main {
   background-color: #333;
 }
 
+/* Line-Up Page */
+
+#lineup-heading {
+  text-align: center;
+  padding: 10px;
+}
+
+#line-up-video {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+#lineup-cover-text {
+  text-align: center;
+  background-color: rgba(12, 12, 12, 0.5);
+  border-radius: 5%;
+  font-size: 110%;
+  position: absolute;
+  justify-content: center;
+  bottom: 20px;
+  width: 70%;
+  height: 85%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#lineup-lower-section {
+  display: flex;
+  height: 300px;
+  width: auto;
+  background-color:black;
+}
+
+#blood-red-line {
+  border: 1px solid #e50000;
+}
+
+/* Sponsor section */
+
 #sponsors {
   text-align: center;
 }
@@ -245,7 +284,8 @@ main {
   line-height: 1em;
 }
 
-#sponsor-logo, #sponsor-logo-mh {
+#sponsor-logo,
+#sponsor-logo-mh {
   display: flex;
   height: 60px;
   /* consistent height */
@@ -254,7 +294,7 @@ main {
   width: auto;
   /* preserve original aspect ratio */
   object-fit: contain;
-  filter:brightness(120%);
+  filter: brightness(120%);
   /* make logos brighter */
 }
 
@@ -359,7 +399,6 @@ main {
     height: 120px;
     max-width: 120px;
   }
-
 }
 
 /* Laptops - min-width: 992px */
@@ -435,8 +474,7 @@ main {
 
   #location {
     height: 900px;
-    background: url(images/scorrier-house.webp) no-repeat center
-      top/cover;
+    background: url(images/scorrier-house.webp) no-repeat center top/cover;
   }
 
   #about-us {
