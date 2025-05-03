@@ -353,22 +353,6 @@ main {
   color: #000;
 }
 
-#where {
-  position: absolute;
-  bottom: 80px;
-  left: 10%;
-  text-align: center;
-}
-
-#scorrier-map {
-  height: 100px;
-  width: 250px;
-}
-
-#map-us {
-  text-align: center;
-}
-
 /* Sponsor section */
 
 #sponsors {
