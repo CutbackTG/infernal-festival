@@ -105,6 +105,8 @@ Develop dedicated pages for:
 
 **Bugs discovered**
 
+![Error handling Response found](image.png)
+
 **Solved Bugs:**
 
 # Deployment
