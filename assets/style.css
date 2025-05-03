@@ -320,6 +320,43 @@ main {
   box-sizing: border-box;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal:target {
+  display: block;
+}
+
+.modal-content {
+  background: #313131;
+  margin: 10% auto;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+
 /* Responsive adjustments */
 @media screen and (max-width: 600px) {
   #ticket-contact-form {
