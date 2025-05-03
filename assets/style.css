@@ -353,38 +353,20 @@ main {
   color: #000;
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 600px) {
-  #ticket-contact-form {
-    height: auto;
-    font-size: 1rem;
-    padding: 10px;
-  }
-
-  #contact-form {
-    padding-bottom: 20px;
-  }
-
-  .form-control {
-    font-size: 0.95rem;
-    padding: 8px;
-  }
+#where {
+  position: absolute;
+  bottom: 80px;
+  left: 10%;
+  text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
-  #ticket-contact-form {
-    position: absolute;
-    top: auto;
-    left: 11%;
-    text-align: center;}
+#scorrier-map {
+  height: 100px;
+  width: 250px;
 }
 
-@media screen and (min-width: 1200px) {
-  #ticket-contact-form {
-    position: absolute;
-    top: auto;
-    left: 22%;
-    text-align: center;}
+#map-us {
+  text-align: center;
 }
 
 /* Sponsor section */
@@ -464,6 +446,23 @@ main {
 
   #lineup-cover-text > h4 {
     font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #ticket-contact-form {
+    height: auto;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  #contact-form {
+    padding-bottom: 20px;
+  }
+
+  .form-control {
+    font-size: 0.95rem;
+    padding: 8px;
   }
 }
 
@@ -599,6 +598,15 @@ main {
     }
   }
 
+  @media screen and (min-width: 1024px) {
+    #ticket-contact-form {
+      position: absolute;
+      top: auto;
+      left: 11%;
+      text-align: center;
+    }
+  }
+
   /* Desktops - min-width: 1200px */
   @media screen and (min-width: 1200px) {
   }
@@ -715,5 +723,14 @@ main {
     width: auto;
     /* preserve original aspect ratio */
     object-fit: contain;
+  }
+
+  @media screen and (min-width: 1200px) {
+    #ticket-contact-form {
+      position: absolute;
+      top: auto;
+      left: 22%;
+      text-align: center;
+    }
   }
 }
