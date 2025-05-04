@@ -131,6 +131,8 @@ After some recommended optimisation of all images to .webp files with a size of 
 
 ![Video height defined incorrectly](image-11.png)
 
+![CSS Validation fix](image-12.png)
+
 # Deployment
 
 **Installation**

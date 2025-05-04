@@ -372,7 +372,7 @@ main {
   line-height: 1em;
 }
 
-#sponsor-logo,
+.sponsor-logo,
 #sponsor-logo-mh {
   display: flex;
   height: 60px;
@@ -512,7 +512,7 @@ main {
     gap: 60px;
   }
 
-  #sponsor-logo {
+  .sponsor-logo {
     height: 120px;
     max-width: 120px;
   }
@@ -568,7 +568,7 @@ main {
       gap: 60px;
     }
 
-    #sponsor-logo {
+    .sponsor-logo {
       height: 125px;
       /* consistent height */
       max-width: 125px;
@@ -696,7 +696,7 @@ main {
     font-size: 2vw;
   }
 
-  #sponsor-logo {
+  .sponsor-logo {
     height: 150px;
     /* consistent height */
     max-width: 150px;
