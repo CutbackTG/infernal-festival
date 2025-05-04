@@ -559,24 +559,6 @@ main {
     display: inline-flex;
     font-size: 30px;
 
-    #sponsor-logos {
-      background-color: black;
-      display: flex;
-      text-align: center;
-      padding: 10px 10px;
-      height: 150px;
-      gap: 60px;
-    }
-
-    .sponsor-logo {
-      height: 125px;
-      /* consistent height */
-      max-width: 125px;
-      /* prevent logos from being too wide */
-      width: auto;
-      /* preserve original aspect ratio */
-      object-fit: contain;
-    }
   }
 
   @media screen and (min-width: 1024px) {

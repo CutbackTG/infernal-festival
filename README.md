@@ -95,6 +95,8 @@ Develop dedicated pages for:
 
 # Testing
 
+![W3C CSS Validator Results](image-13.png)
+
 **Lighthouse Rating**
 
 ![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
