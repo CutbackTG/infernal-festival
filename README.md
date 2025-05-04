@@ -100,6 +100,12 @@ Develop dedicated pages for:
 ![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
 - This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
+![Lineup page rating ](image-1.png)
+- a slightly slower load time due to the .mp4 file but overall good scores.
+
+![Ticket Page ratings](image-2.png)
+- As expected from this relatively simple form page, excellent Lighthouse ratings across the board.
+
 ![Gallery Page rating]({C812EC33-62AE-46F1-A551-D3CF8394F147}.png)
 - This rating gives an excellent score across performance, accessibility, best practices and SEO.
 
