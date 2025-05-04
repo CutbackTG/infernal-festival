@@ -257,7 +257,7 @@ main {
     center/cover;
 }
 
-#blood-red-line {
+.blood-red-line {
   border: 1px solid #e50000;
 }
 
