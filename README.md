@@ -129,6 +129,8 @@ After some recommended optimisation of all images to .webp files with a size of 
 
 ![End tag required for </section> element](image-10.png)
 
+![Video height defined incorrectly](image-11.png)
+
 # Deployment
 
 **Installation**
