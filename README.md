@@ -100,7 +100,11 @@ Develop dedicated pages for:
 ![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
 - This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
-![Lineup page rating ](image-1.png)
+After some recommended optimisation of all images to .webp files with a size of under 100kb and reducing Googlr fonts to just two weighted classes we have now achieved a slightly higher performance rating for the index.html page.
+
+![improved About Page rating](image-3.png)
+
+![Lineup Page rating](image-4.png)
 - a slightly slower load time due to the .mp4 file but overall good scores.
 
 ![Ticket Page ratings](image-2.png)
