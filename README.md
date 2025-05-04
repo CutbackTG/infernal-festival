@@ -117,7 +117,17 @@ After some recommended optimisation of all images to .webp files with a size of 
 
 ![Error handling Response found](image.png)
 
+![Page Titles not unique](image-6.png)
+
 **Solved Bugs:**
+
+![Unneccesary ALT tag](image-7.png)
+
+![Duplicate autoplay attributes](image-8.png)
+
+![Title situated outside of Head parameters](image-9.png)
+
+![End tag required for </section> element](image-10.png)
 
 # Deployment
 
