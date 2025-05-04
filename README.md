@@ -51,7 +51,7 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 - The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
 - Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
 - Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
-- Ticket pricing, and the festival line-up are each clearly laid out on their own dedicated pages.
+- Ticket sales page and the festival line-up are each clearly laid out on their own dedicated pages.
 - The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
 - Site structure follows logical paths — no dead ends or hidden links.
 - The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
