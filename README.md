@@ -110,8 +110,8 @@ After some recommended optimisation of all images to .webp files with a size of 
 ![Ticket Page ratings](image-2.png)
 - As expected from this relatively simple form page, excellent Lighthouse ratings across the board.
 
-![Gallery Page rating]({C812EC33-62AE-46F1-A551-D3CF8394F147}.png)
-- This rating gives an excellent score across performance, accessibility, best practices and SEO.
+![Gallery page rating](image-5.png)
+- This performance rating is to be expected with multiple images to load initially on page load.
 
 **Bugs discovered**
 
