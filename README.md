@@ -36,6 +36,23 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 # Design
 
+Minimalist colour pallete design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
+![Minimalist colour pallette](image-14.png)
+
+Contemporary inspirations from the Netflix logo and website design for customer familiarisation.
+![Netflix logo](image-15.png)
+
+![Netflix website landing page](image-16.png)
+https://www.netflix.com/gb/
+
+
+In addition to the minimalistic branding and styling of Marshall amplifiers.
+![Marshall Amps homepage](image-17.png)
+https://www.marshall.com/gb/en 
+
+
+
+
 **Wireframes**
 
 Home Page Design Concept - Mobile first
@@ -46,14 +63,6 @@ Lineup Page Design Concept
 
 ![Line up Page mobile design](assets/wireframes/lineup-page-mobiledevice.png)
 ![Line up Page pc design](assets/wireframes/lineup-page-pcdevice.png)
-
-Ticket Page Design Concept
-
-
-
-Gallery Page Design Concept
-
-
 
 # UX
 
