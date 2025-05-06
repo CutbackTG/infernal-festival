@@ -32,7 +32,7 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 - CSS3: For styling the site with custom layouts and designs.
 - Git: Version control to manage project files.
 - GitHub Pages: Hosting the live version of the project.
-- RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engline hosted by https://creator.nightcafe.studio/explore 
+- RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
 
 # Design
 
@@ -443,4 +443,4 @@ Stack Overflow (2024). Stack Overflow - Where Developers Learn, Share, & Build C
 
 # Media:
 
-All images and videos have been generated using Nightcafe's RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engline hosted by https://creator.nightcafe.studio/explore 
+All images and videos have been generated using Nightcafe's RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
