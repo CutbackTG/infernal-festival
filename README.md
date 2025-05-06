@@ -38,8 +38,22 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 **Wireframes**
 
+Home Page Design Concept - Mobile first
 ![Home page mobile first design](assets/wireframes/home-page-mobiledevice.png)
 ![Pc Monitor Home page design](assets/wireframes/home-page-pcdevice.png)
+
+Lineup Page Design Concept
+
+![Line up Page mobile design](assets/wireframes/lineup-page-mobiledevice.png)
+![Line up Page pc design](assets/wireframes/lineup-page-pcdevice.png)
+
+Ticket Page Design Concept
+
+
+
+Gallery Page Design Concept
+
+
 
 # UX
 
