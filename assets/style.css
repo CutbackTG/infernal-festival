@@ -384,6 +384,7 @@ main {
   object-fit: contain;
   filter: brightness(120%);
   /* make logos brighter */
+  z-index: 100;
 }
 
 #sponsor-logo-mh {
@@ -688,6 +689,11 @@ main {
     object-fit: contain;
   }
 
+  #ticket-contact-form {
+    position: absolute;
+    top: auto;
+    left: 15%;
+
   @media screen and (min-width: 1200px) {
     #ticket-contact-form {
       position: absolute;
@@ -696,4 +702,5 @@ main {
       text-align: center;
     }
   }
+}
 }
