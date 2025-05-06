@@ -708,8 +708,18 @@ main {
     #ticket-contact-form {
       position: absolute;
       top: auto;
-      left: 22%;
+      left: 21%;
       text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
+    #ticket-contact-form {
+      position: absolute;
+      top: auto;
+      left: 30%;
+      text-align: center;
+      margin-top: 40px;
     }
   }
 }
