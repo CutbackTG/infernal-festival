@@ -15,6 +15,11 @@ The purpose of the Infernal Festival website for visitors is to share informatio
 
 For the Infernal Festival clients themselves the website features strong call to actions toward ticket sales and customer information to repeatedly direct them back to the tickets purchasing page in addition to advertising the event itself and answering customer's frequently asked questions that may help them decide to attend the festival and purchase a ticket.
 
+# Links
+
+- Website Deployment: https://cutbacktg.github.io/infernal-festival/index.html
+- Github Repository: https://github.com/CutbackTG/infernal-festival
+
 # Features
 
 Interactive UI: An engaging user interface with smooth scrolling and easy navigation.
@@ -29,17 +34,14 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 - GitHub Pages: Hosting the live version of the project.
 - RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engline hosted by https://creator.nightcafe.studio/explore 
 
-# Links
-
-- Website Deployment: https://cutbacktg.github.io/infernal-festival/index.html
-- Github Repository: https://github.com/CutbackTG/infernal-festival
-
 # Design
 
 Minimalist colour pallete design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
+
 ![Minimalist colour pallette](image-14.png)
 
 Contemporary inspirations from the Netflix logo and website design for customer familiarisation.
+
 ![Netflix logo](image-15.png)
 
 ![Netflix website landing page](image-16.png)
@@ -47,11 +49,9 @@ https://www.netflix.com/gb/
 
 
 In addition to the minimalistic branding and styling of Marshall amplifiers.
+
 ![Marshall Amps homepage](image-17.png)
 https://www.marshall.com/gb/en 
-
-
-
 
 **Wireframes**
 
@@ -117,13 +117,117 @@ Develop dedicated pages for:
 - Minimize any JavaScript or CSS that could slow down menu interactions.
 - Optimise images/icons used in navigation.
 
-# Accessibility
+2. First-Time Visitor 2:
 
-# Testing
+*As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
+
+**Acceptance Criteria**
+- There is a clear, intuitive main navigation menu visible at the top of every page.
+- The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
+- Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
+- Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
+- Ticket pricing, and the festival line-up are each clearly laid out on their own dedicated pages.
+- The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
+- Site structure follows logical paths — no dead ends or hidden links.
+- The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
+- Accessibility is considered (e.g., clear button labels, focus states, screen reader support).
+- Users report finding tickets and line-up info quickly during usability testing (target: under 20 seconds).
+
+**Tasks**
+Content Planning
+- Create content for "Tour Dates," "Ticket Prices," and "Festival Line-up" pages.
+- Write strong CTA button text (e.g., "Get Your Tickets," "See the Full Line-up").
+Design
+- Design a clear navigation bar with prominent links to all key sections.
+- Create homepage CTA sections (banner, feature blocks, or sticky buttons) linking directly to "Buy Tickets" and "Line-up."
+- Design mobile navigation (hamburger menu) for smaller screens.
+
+**Development**
+- Build a consistent, site-wide header with a navigation menu.
+- Develop dedicated pages for:
+- Ticket Prices (clear breakdown of pricing tiers, early bird discounts, etc.).
+- Festival Line-up (artist names, times, stages if available).
+- Implement anchor links and CTAs on the homepage to key pages.
+- Set up a sticky header (optional) to keep navigation accessible while scrolling.
+
+**Accessibility**
+- Ensure navigation is keyboard navigable and screen reader friendly.
+- Add clear focus indicators for clickable elements.
+- Make CTA buttons descriptive (avoid "Click Here" — be specific like "Buy Festival Tickets").
+
+**Testing**
+- Perform usability testing with first-time visitors — measure how long it takes them to find tour dates, ticket info, and line-up.
+- Test navigation functionality across browsers and devices (desktop, mobile, tablet).
+- Conduct accessibility audits using tools like axe or Lighthouse.
+
+**Performance**
+- Minimize any JavaScript or CSS that could slow down menu interactions.
+- Optimize images/icons used in navigation.
+
+3. First-time Visitor 3
+
+*As a First-Time Visitor, I want to locate social media links to check out the festival’s community and engagement, so I can see how popular and reputable the event is. I expect links to be easy to find and to lead me directly to platforms like Instagram, TikTok, and Facebook, where I can view festival highlights, band interactions, and community excitement.*
+
+**Acceptance Criteria**
+- Social media icons/links are prominently placed on the homepage (e.g., header, footer, or a sticky sidebar).
+- Links lead directly to the festival’s official accounts on Instagram, TikTok, and Facebook (open in a new tab).
+- The icons are easily recognizable, using standard, official platform logos.
+- Social media links are also present on key pages like "Line-up," "About," and "Buy Tickets."
+- Hover states or tooltips clarify the destination of each link (e.g., "Follow us on Instagram").
+- Links are accessible (e.g., labelled properly for screen readers).
+- Users can easily find and access the festival's social media presence within 10 seconds of landing on the site during testing.
+
+**Tasks**
+
+**Content and Assets**
+- Collect official social media URLs for Instagram, TikTok, and Facebook.
+- Prepare visual assets (icons or badges) for each platform if custom ones are needed.
+
+**Design**
+- Design a social media bar/section for the homepage
+- Create a visually consistent set of social media icons that match the site’s design.
+
+**Development**
+- Add social media icons/links to site pages
+- Ensure all social media links open in new tabs.
+- Implement hover effects and accessible labels for icons.
+
+**Accessibility**
+- Ensure social media links are keyboard-navigable.
+- Add descriptive aria-labels (e.g., ).
+- Make sure icons have sufficient colour contrast and are visible on all backgrounds.
+
+**Testing**
+Test all social links to ensure they lead to the correct social media profiles.
+Test appearance and functionality across browsers and mobile devices.
+- Conduct user testing to confirm visitors can easily find and use the social media links within 10 seconds.
+
+**Performance and Optimization**
+- Optimize icons (SVG preferred for scalability and performance).
+
+4. Returning/ frequent User 4
+
+*As a Frequent User, I want to sign up for email or push notifications, so I never miss an important update about lineup changes, exclusive ticket sales, or last-minute schedule adjustments. I want to control my notification preferences to avoid spam but still get crucial alerts.
+
+**Acceptance Criteria**
+There is a clear option on the site inviting users to sign up for updates.
+The sign-up form collects only necessary information (e.g., name, email, notification preferences).
+
+**Content Creation**
+Write sign-up form and confirmation modal.
+
+**Design**
+Design an attractive sign-up section or banner for the homepage and key pages.
+
+**Development**
+Create the sign-up form with fields for:
+Name & Email address
+
+# Testing & Accessibility
 
 ![W3C CSS Validator Results](image-13.png)
 
-**Lighthouse Rating**
+**Accessibility - Lighthouse Rating**
 
 ![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
 - This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
