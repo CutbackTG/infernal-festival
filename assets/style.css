@@ -91,6 +91,10 @@ nav {
   color: whitesmoke;
 }
 
+.glow:hover {
+  text-shadow: 0 0 10px #e50000, 0 0 20px #e50000, 0 0 30px #e50000, 0 0 40px #e50000, 0 0 50px #e50000
+}
+
 .active {
   border-bottom: 1px solid #e50000;
 }
@@ -257,7 +261,7 @@ main {
     center/cover;
 }
 
-.blood-red-line {
+#blood-red-line {
   border: 1px solid #e50000;
 }
 
@@ -330,14 +334,16 @@ main {
 
 .modal-content {
   background: #313131;
-  font-size: 2vw;
-  margin: 10% auto;
+  font-size: 4vw;
+  margin: auto;
   padding: 30px;
-  width: 90%;
-  max-width: 400px;
+  max-width: 80%;
   border-radius: 10px;
   text-align: center;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .close-button {
@@ -384,7 +390,6 @@ main {
   object-fit: contain;
   filter: brightness(120%);
   /* make logos brighter */
-  z-index: 100;
 }
 
 #sponsor-logo-mh {
@@ -429,6 +434,7 @@ main {
   #lineup-cover-text > h4 {
     font-size: 2vw;
   }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -560,6 +566,10 @@ main {
     display: inline-flex;
     font-size: 30px;
 
+    .modal-content {
+      font-size: 3vw;
+    }
+
   }
 
   @media screen and (min-width: 1024px) {
@@ -569,6 +579,11 @@ main {
       left: 11%;
       text-align: center;
     }
+
+    .modal-content {
+      font-size: 2vw;
+    }
+
   }
 
   /* Desktops - min-width: 1200px */
@@ -689,11 +704,6 @@ main {
     object-fit: contain;
   }
 
-  #ticket-contact-form {
-    position: absolute;
-    top: auto;
-    left: 15%;
-
   @media screen and (min-width: 1200px) {
     #ticket-contact-form {
       position: absolute;
@@ -702,5 +712,4 @@ main {
       text-align: center;
     }
   }
-}
 }
