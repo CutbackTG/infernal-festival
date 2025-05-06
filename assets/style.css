@@ -714,6 +714,12 @@ main {
   }
 
   @media screen and (min-width: 1920px) {
+
+    #lineup-lower-section {
+      display: flex;
+      height: 450px;
+    }
+
     #ticket-contact-form {
       position: absolute;
       top: auto;
@@ -722,4 +728,29 @@ main {
       margin-top: 40px;
     }
   }
+
+  #sponsor-logos {
+    height: 80px;
+    padding: 15px;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    line-height: 1em;
+  }
+
+  .sponsor-logo,
+#sponsor-logo-mh {
+  display: flex;
+  height: 60px;
+  /* consistent height */
+  max-width: 60px;
+  /* prevent logos from being too wide */
+  width: auto;
+  /* preserve original aspect ratio */
+  object-fit: contain;
+  filter: brightness(120%);
+  /* make logos brighter */
+}
 }
