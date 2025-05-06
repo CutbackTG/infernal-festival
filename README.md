@@ -397,4 +397,50 @@ Inspiration: The concept for this web application was inspired by online festiva
 
 # Code:
 
+Glowing text tutorial code sourced from Lambdatest and then adapted to suit my project in line 94 of #style.css file.
+
+`.glow:hover {
+  text-shadow: 0 0 10px #e50000, 0 0 20px #e50000, 0 0 30px #e50000, 0 0 40px #e50000, 0 0 50px #e50000
+}`
+
+And classified in from line 32 in the #index.html, Gallery, Lineup and Tickets source code.
+
+`<nav>
+    <ul id="menu">
+      <li><a href="index.html" class="glow active">About</a></li>
+      <li><a href="line-up.html" class="glow">Line-Up</a></li>
+      <li><a href="tickets.html" class="glow">Tickets</a></li>
+      <li><a href="gallery.html"class="glow">Gallery</a></li>
+    </ul>
+  </nav>
+</header>`
+
+https://www.linkedin.com/in/clinton-joy-538804244 (2025). Introducing The All New LT Browser 2.0!🖥️ | LambdaTest. [online] LambdaTest. Available at: https://www.lambdatest.com/blog/glowing-effects-in-css/ [Accessed 6 May 2025].
+
+Code resourced to centre Modal to centre of screen by user Vlad Udod on the Stackoverflow website
+
+`.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}`
+
+And adapted on line 320 of my #style.css file
+
+`.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}`
+
+Stack Overflow (2024). Stack Overflow - Where Developers Learn, Share, & Build Careers. [online] Stack Overflow. Available at: https://stackoverflow.com/.
+
 # Media:
+
+All images and videos have been generated using Nightcafe's RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engline hosted by https://creator.nightcafe.studio/explore 
