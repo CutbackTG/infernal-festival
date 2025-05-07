@@ -92,7 +92,8 @@ nav {
 }
 
 .glow:hover {
-  text-shadow: 0 0 10px #e50000, 0 0 20px #e50000, 0 0 30px #e50000, 0 0 40px #e50000, 0 0 50px #e50000
+  text-shadow: 0 0 10px #e50000, 0 0 20px #e50000, 0 0 30px #e50000,
+    0 0 40px #e50000, 0 0 50px #e50000;
 }
 
 .active {
@@ -434,7 +435,6 @@ main {
   #lineup-cover-text > h4 {
     font-size: 2vw;
   }
-
 }
 
 @media screen and (max-width: 600px) {
@@ -569,7 +569,6 @@ main {
     .modal-content {
       font-size: 3vw;
     }
-
   }
 
   @media screen and (min-width: 1024px) {
@@ -584,6 +583,10 @@ main {
       font-size: 2vw;
     }
 
+    #sponsor-logo-mh {
+      filter: brightness(0) invert(1);
+      transition: transform 0.3s ease;
+    }
   }
 
   /* Desktops - min-width: 1200px */
@@ -714,7 +717,6 @@ main {
   }
 
   @media screen and (min-width: 1920px) {
-
     #lineup-lower-section {
       display: flex;
       height: 450px;
@@ -741,16 +743,21 @@ main {
   }
 
   .sponsor-logo,
-#sponsor-logo-mh {
-  display: flex;
-  height: 60px;
-  /* consistent height */
-  max-width: 60px;
-  /* prevent logos from being too wide */
-  width: auto;
-  /* preserve original aspect ratio */
-  object-fit: contain;
-  filter: brightness(120%);
-  /* make logos brighter */
-}
+  #sponsor-logo-mh {
+    display: flex;
+    height: 60px;
+    /* consistent height */
+    max-width: 60px;
+    /* prevent logos from being too wide */
+    width: auto;
+    /* preserve original aspect ratio */
+    object-fit: contain;
+    filter: brightness(120%);
+    /* make logos brighter */
+  }
+
+  #sponsor-logo-mh {
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+  }
 }
