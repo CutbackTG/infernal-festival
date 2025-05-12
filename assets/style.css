@@ -745,9 +745,9 @@ main {
   .sponsor-logo,
   #sponsor-logo-mh {
     display: flex;
-    height: 60px;
+    height: 80px;
     /* consistent height */
-    max-width: 60px;
+    max-width: 80px;
     /* prevent logos from being too wide */
     width: auto;
     /* preserve original aspect ratio */
