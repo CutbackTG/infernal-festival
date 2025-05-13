@@ -68,7 +68,7 @@ Lineup Page Design Concept
 
 **User Stories**
 
-1. First-Time Visitor 1:
+**1. First-Time Visitor 1:**
 
 *As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
 
@@ -117,54 +117,51 @@ Develop dedicated pages for:
 - Minimize any JavaScript or CSS that could slow down menu interactions.
 - Optimise images/icons used in navigation.
 
-2. First-Time Visitor 2:
+**2. First-Time Visitor 2:**
 
-*As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
+*As a First-Time Visitor, I want to easily understand the main purpose of the site and learn more about the festival, so I can quickly determine if this is the kind of event I would enjoy attending. I want to see a visually striking homepage that showcases the festival’s vibe, past events, and overall atmosphere through videos, images, and key details.*
 
 **Acceptance Criteria**
-- There is a clear, intuitive main navigation menu visible at the top of every page.
-- The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
-- Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
-- Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
-- Ticket pricing, and the festival line-up are each clearly laid out on their own dedicated pages.
-- The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
-- Site structure follows logical paths — no dead ends or hidden links.
-- The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
-- Accessibility is considered (e.g., clear button labels, focus states, screen reader support).
-- Users report finding tickets and line-up info quickly during usability testing (target: under 20 seconds).
+- The homepage clearly states the festival’s name, theme, and dates at first glance.
+- A short, engaging headline and sub-headline explain what the festival is about.
+- There is a prominent "About the Festival" section or call-to-action (CTA) leading to more information.
+- High-quality videos and/or image galleries showcase past events and the overall vibe.
+- The visual design feels exciting, modern, and aligned with the festival's identity.
+- The site loads quickly despite media-rich content.
+- The layout is responsive and mobile-friendly.
+- Accessibility standards are met (e.g., alt text for images, video captions).
+- First-time visitors should be able to answer "What is this event?" and "Does it interest me?" within 30 seconds of landing.
 
 **Tasks**
-Content Planning
-- Create content for "Tour Dates," "Ticket Prices," and "Festival Line-up" pages.
-- Write strong CTA button text (e.g., "Get Your Tickets," "See the Full Line-up").
-Design
-- Design a clear navigation bar with prominent links to all key sections.
-- Create homepage CTA sections (banner, feature blocks, or sticky buttons) linking directly to "Buy Tickets" and "Line-up."
-- Design mobile navigation (hamburger menu) for smaller screens.
+Content Gathering
+- Collect high-quality images and videos from past events.
+- Write a concise and engaging festival description (headline + short paragraph).
+- Gather key details (dates, location, major highlights).
+
+**Design**
+- Create a homepage wireframe that prioritizes visuals and key info above the fold.
+- Design a visually striking hero section featuring a video or image carousel.
+- Design an "About the Festival" section with CTA buttons for more details.
 
 **Development**
-- Build a consistent, site-wide header with a navigation menu.
-- Develop dedicated pages for:
-- Ticket Prices (clear breakdown of pricing tiers, early bird discounts, etc.).
-- Festival Line-up (artist names, times, stages if available).
-- Implement anchor links and CTAs on the homepage to key pages.
-- Set up a sticky header (optional) to keep navigation accessible while scrolling.
+- Implement the homepage layout using responsive design practices.
+- Embed video(s) with auto-play muted option and fall-back images for slow connections.
+- Add an image gallery section showcasing past events.
+- Implement lightweight animations for a dynamic, engaging experience.
 
 **Accessibility**
-- Ensure navigation is keyboard navigable and screen reader friendly.
-- Add clear focus indicators for clickable elements.
-- Make CTA buttons descriptive (avoid "Click Here" — be specific like "Buy Festival Tickets").
+- Add alt text to all images.
+- Make sure colour contrast and font sizes meet accessibility standards.
+
+**Performance Optimization**
+- Optimize all media assets for fast load times (compression, lazy loading).
+- Test homepage speed and fix any issues slowing it down.
 
 **Testing**
-- Perform usability testing with first-time visitors — measure how long it takes them to find tour dates, ticket info, and line-up.
-- Test navigation functionality across browsers and devices (desktop, mobile, tablet).
-- Conduct accessibility audits using tools like axe or Lighthouse.
+- Conduct user testing with first-time visitors to confirm they understand the festival within 30 seconds.
+- Test responsiveness across different devices and browsers.
 
-**Performance**
-- Minimize any JavaScript or CSS that could slow down menu interactions.
-- Optimize images/icons used in navigation.
-
-3. First-time Visitor 3
+**3. First-time Visitor 3**
 
 *As a First-Time Visitor, I want to locate social media links to check out the festival’s community and engagement, so I can see how popular and reputable the event is. I expect links to be easy to find and to lead me directly to platforms like Instagram, TikTok, and Facebook, where I can view festival highlights, band interactions, and community excitement.*
 
@@ -205,7 +202,7 @@ Test appearance and functionality across browsers and mobile devices.
 **Performance and Optimization**
 - Optimize icons (SVG preferred for scalability and performance).
 
-4. Returning/ frequent User 4
+**4. Returning/ frequent User 4**
 
 *As a Frequent User, I want to sign up for email or push notifications, so I never miss an important update about lineup changes, exclusive ticket sales, or last-minute schedule adjustments. I want to control my notification preferences to avoid spam but still get crucial alerts.
 
