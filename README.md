@@ -6,14 +6,14 @@ Project One: Infernal Festival Website
 
 # Project Description
 
-Infernal Festival is a dynamic and interactive website designed to simulate the experience of an exciting design and experience of visiting and interacting with informaton in the promotional buildup for a hypothetical live festival event.
+Infernal Festival is a dynamic and interactive website designed to simulate the experience of an exciting design and experience of visiting and interacting with information in the promotional buildup for a hypothetical live festival event.
 The Infernal Festival website hosts an engaging interface and vibrant design inspired by the metal music genre and industry trends featured by companies such as Metal Hammer Magazine and Download Festival.
 
 # Website Purpose
 
 The purpose of the Infernal Festival website for visitors is to share information for the (hypothetical) Infernal Festival event, view upcoming lineups of performing artists, receive purchasing and contact information and view visual collections of photography from previous events in addition to answering some user story generated frequently asked questions about the event and its proceedings for participation.
 
-For the Infernal Festival clients themselves the website features strong call to actions toward ticket sales and customer information to repeatedly direct them back to the tickets purchasing page in addition to advertising the event itself and answering customer's frequently asked questions that may help them decide to attend the festival and purchase a ticket.
+For the Infernal Festival clients themselves, the website features strong call to actions toward ticket sales and customer information to repeatedly direct them back to the ticket purchasing page, in addition to advertising the event itself and answering customers' frequently asked questions that may help them decide to attend the festival and purchase a ticket.
 
 # Links
 
@@ -23,7 +23,7 @@ For the Infernal Festival clients themselves the website features strong call to
 # Features
 
 Interactive UI: An engaging user interface with smooth scrolling and easy navigation.
-Responsive Design: The website design is optimised for mobile, tablet and desktop devices.
+Responsive Design: The website design is optimised for mobile, tablet, and desktop devices.
 Ticket contact Form: Ahead of a ticket purchasing system, the website features a contact form for details on ticket purchasing and camping information as its minimum viable product (see MVP section)
 
 # Technologies Used
@@ -32,11 +32,11 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 - CSS3: For styling the site with custom layouts and designs.
 - Git: Version control to manage project files.
 - GitHub Pages: Hosting the live version of the project.
-- RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
+- RealVisXL v5 Lightning: AI Generation of copyright-free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
 
 # Design
 
-Minimalist colour pallete design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
+Minimalist colour palette design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
 
 ![Minimalist colour pallette](image-14.png)
 
@@ -106,12 +106,12 @@ Develop dedicated pages for:
 **Accessibility**
 - Ensure navigation is keyboard navigable and screen reader friendly.
 - Add clear focus indicators for clickable elements.
-- Make CTA buttons descriptive (avoid "Click Here" — be specific like "Buy Festival Tickets").
+- Make CTA buttons descriptive (avoid "Click Here" — be specific, like "Buy Festival Tickets").
 
 **Testing**
 - Perform usability testing with first-time visitors — measure how long it takes them to find tour dates, ticket info, and line-up.
 - Test navigation functionality across browsers and devices (desktop, mobile, tablet).
-- Conduct accessibility audits using tools like axe or Lighthouse.
+- Conduct accessibility audits using Lighthouse.
 
 **Performance**
 - Minimize any JavaScript or CSS that could slow down menu interactions.
@@ -211,7 +211,7 @@ There is a clear option on the site inviting users to sign up for updates.
 The sign-up form collects only necessary information (e.g., name, email, notification preferences).
 
 **Content Creation**
-Write sign-up form and confirmation modal.
+Write a sign-up form and a confirmation modal.
 
 **Design**
 Design an attractive sign-up section or banner for the homepage and key pages.
@@ -227,14 +227,14 @@ Name & Email address
 **Accessibility - Lighthouse Rating**
 
 ![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
-- This rating demonstrates good accessibility, best practices and SEO, however the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
+- This rating demonstrates good accessibility, best practices, and SEO, however, the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
-After some recommended optimisation of all images to .webp files with a size of under 100kb and reducing Googlr fonts to just two weighted classes we have now achieved a slightly higher performance rating for the index.html page.
+After some recommended optimisation of all images to .webp files with a size of under 100kb and reducing Google fonts to just two weighted classes, we have now achieved a slightly higher performance rating for the index.html page.
 
 ![improved About Page rating](image-3.png)
 
 ![Lineup Page rating](image-4.png)
-- a slightly slower load time due to the .mp4 file but overall good scores.
+- a slightly slower load time due to the .mp4 file, but overall good scores.
 
 ![Ticket Page ratings](image-2.png)
 - As expected from this relatively simple form page, excellent Lighthouse ratings across the board.
@@ -283,7 +283,7 @@ This section guides you through the process of deploying your web application to
 
 **Pre-requisites:**
 - A github account.
-- A github repository or clone of with your web project already pushed to it.
+- A github repository or clone of your web project already pushed to it.
 
 **Step 1: Prepare Your Repository**
 Check that your project is in a GitHub repository. If you haven't already created one, follow these steps:
@@ -335,7 +335,7 @@ Use the following commands to push your project to Github:
  1. Find your Github Pages URL:
  - In the ***Github Pages*** section under ***settings***, you will see a URL that will look like:
  https://yourusername.githuib.io/infernal-festival/ 
- - This URL is your live website (as stated previously this may take a minute or two to appear, simply refresh the page periodically until it appears on the page)
+ - This URL is your live website (as stated previously, this may take a minute or two to appear, simply refresh the page periodically until it appears on the page)
  - Click the link to open your deployed website in your browser.
 
  **Step 4: Updating your website**
@@ -394,7 +394,7 @@ Inspiration: The concept for this web application was inspired by online festiva
 
 # Code:
 
-Glowing text tutorial code sourced from Lambdatest and then adapted to suit my project in line 94 of #style.css file.
+Glowing text tutorial code sourced from LambdaTest and then adapted to suit my project in line 94 of the #style.css file.
 
 `.glow:hover {
   text-shadow: 0 0 10px #e50000, 0 0 20px #e50000, 0 0 30px #e50000, 0 0 40px #e50000, 0 0 50px #e50000
@@ -414,7 +414,7 @@ And classified in from line 32 in the #index.html, Gallery, Lineup and Tickets s
 
 https://www.linkedin.com/in/clinton-joy-538804244 (2025). Introducing The All New LT Browser 2.0!🖥️ | LambdaTest. [online] LambdaTest. Available at: https://www.lambdatest.com/blog/glowing-effects-in-css/ [Accessed 6 May 2025].
 
-Code resourced to centre Modal to centre of screen by user Vlad Udod on the Stackoverflow website
+Code resourced to centre Modal to the centre of the screen by user Vlad Udod on the Stackoverflow website
 
 `.center {
   position: absolute;
@@ -440,4 +440,4 @@ Stack Overflow (2024). Stack Overflow - Where Developers Learn, Share, & Build C
 
 # Media:
 
-All images and videos have been generated using Nightcafe's RealVisXL v5 Lightning: AI Generation of copyright free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
+All images and videos have been generated using Nightcafe's RealVisXL v5 Lightning: AI Generation of copyright-free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
