@@ -6,7 +6,7 @@ Project One: Infernal Festival Website
 
 # Project Description
 
-Festival is a dynamic and interactive website designed to simulate the experience of an exciting design and experience of visiting and interacting with informaton in the promotional buildup for a hypothetical live festival event.
+Infernal Festival is a dynamic and interactive website designed to simulate the experience of an exciting design and experience of visiting and interacting with informaton in the promotional buildup for a hypothetical live festival event.
 The Infernal Festival website hosts an engaging interface and vibrant design inspired by the metal music genre and industry trends featured by companies such as Metal Hammer Magazine and Download Festival.
 
 # Website Purpose
