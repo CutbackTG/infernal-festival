@@ -262,6 +262,10 @@ The second error here refers to a lower section that I coded in for future relea
 <br>
 <img src= assets\images\readme-images\image20.png alt= "gallery page html results" width= 600>
 
+<br>Tickets HTML validation Check Results<br>
+<br>
+<img src= assets\images\readme-images\tickets-html-validation.png alt= "tickets page html results" width= 600>
+
 **Accessibility - Lighthouse Rating**
 
 <br>
