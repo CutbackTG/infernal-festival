@@ -2,7 +2,7 @@ Project One: Infernal Festival Website
 ======================================
 **Author:** *Tyler Worth*
 
-<img src=assets\images\readme-images\{3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png alt ="Infernal Festival Responsive Screens" width= 400>
+<img src=assets\images\readme-images\{3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png alt ="Infernal Festival Responsive Screens">
 
 # Project Description
 
