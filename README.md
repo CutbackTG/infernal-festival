@@ -294,10 +294,28 @@ Lighthouse rating for Lineup page:<br>
 
 **Bugs discovered**
 
+The "prettier" code formatter seems to add some unneccessary tail slashes on source code that register in Chrome devtools as required fixes and need to be deleted before bug testing can continue, see the following example of where prettier has added the tail slashes that have been removed from the source code.
+
+`<meta
+      name="description"
+      content="Infernal Festival is a metal and alternative music festival in Scorrier, Cornwall. It features a diverse lineup of bands and artists, with a focus on heavy music genres. The festival takes place in a scenic location and offers a unique experience for music lovers."
+    />
+    <meta
+      name="keywords"
+      content="Infernal Festival, metal festival, alternative music, Scorrier, Cornwall, heavy music, live music, music festival"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />'
+
 
 **Solved Bugs:**
 
-<br>On first run of checking my html code for Index.html I was presented with the following error (see image below) which addressed that I had failed to give each of my page titles a unique value and so I jumped back into my header code and changed values to Infernal Festival, Infernal Festival Lineup, " " Gallery .etc<br>
+On first run of checking my html code for Index.html I was presented with the following error (see image below) which addressed that I had failed to give each of my page titles a unique value and so I jumped back into my header code and changed values to Infernal Festival, Infernal Festival Lineup, " " Gallery .etc<br>
+<br>
 <img src= assets\images\readme-images\image-6.png alt= "Page Titles not unique" width= 600>
 <br>
 
