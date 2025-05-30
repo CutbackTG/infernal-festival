@@ -112,7 +112,7 @@ main {
 #hero {
   height: 300px;
   width: 100%;
-  background: url("images/heroimage.webp") no-repeat center bottom/cover;
+  background: url("images/style-images/heroimage.webp") no-repeat center bottom/cover;
   position: relative;
 }
 
@@ -183,7 +183,7 @@ main {
   max-height: 500px;
   width: 100%;
   position: relative;
-  background: url(images/scorrier-house.webp) no-repeat center center/cover;
+  background: url(images/style-images/scorrier-house.webp) no-repeat center center/cover;
 }
 
 /* About section */
@@ -258,7 +258,7 @@ main {
   display: flex;
   height: 300px;
   width: auto;
-  background: url(images/infernal-festival-background.webp) no-repeat center
+  background: url(images/style-images/infernal-festival-background.webp) no-repeat center
     center/cover;
 }
 
@@ -269,7 +269,7 @@ main {
 /* Ticket page */
 
 #ticketstop {
-  background: url(images/infernal-festival-background.webp) no-repeat center
+  background: url(images/style-images/infernal-festival-background.webp) no-repeat center
     center/cover;
 }
 
@@ -613,7 +613,7 @@ main {
 
   #location {
     height: 900px;
-    background: url(images/scorrier-house.webp) no-repeat center top/cover;
+    background: url(images/style-images/scorrier-house.webp) no-repeat center top/cover;
   }
 
   #about-us {

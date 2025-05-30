@@ -2,7 +2,7 @@ Project One: Infernal Festival Website
 ======================================
 **Author:** *Tyler Worth*
 
-![Infernal Festival Responsive Screens]({3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png)
+![Infernal Festival Responsive Screens]({assets\images\readme-images\3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png)
 
 # Project Description
 
@@ -38,19 +38,19 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 Minimalist colour palette design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
 
-![Minimalist colour pallette](image-14.png)
+![Minimalist colour pallette](assets\images\readme-images\image-14.png)
 
 Contemporary inspirations from the Netflix logo and website design for customer familiarisation.
 
-![Netflix logo](image-15.png)
+![Netflix logo](assets\images\readme-images\image-15.png)
 
-![Netflix website landing page](image-16.png)
+![Netflix website landing page](assets\images\readme-images\image-16.png)
 https://www.netflix.com/gb/
 
 
 In addition to the minimalistic branding and styling of Marshall amplifiers.
 
-![Marshall Amps homepage](image-17.png)
+![Marshall Amps homepage](assets\images\readme-images\image-17.png)
 https://www.marshall.com/gb/en 
 
 **Wireframes**
@@ -222,45 +222,75 @@ Name & Email address
 
 # Testing & Accessibility
 
-![W3C CSS Validator Results](image-13.png)
+![W3C CSS Validator Results](assets\images\readme-images\image-13.png)
+
+HTML Page validator results run from W3C on source code.
+Index Html
+
+![Index html source code validation check](assets\images\readme-images\image-18.png)
+
+Lineup HTML W3C validation checker shows two expected issues.
+
+![Lineup Html W3c results](assets\images\readme-images\image-19.png)
+
+The first error here is the unexpected value of a percentage rather than a whole number, however to keep this element adaptable and display perfectly on our various media queries a static number fails to work. I did experiment with using a CSS order for 
+`line-up-video {
+  width: 100%
+}`
+
+however this also did not return the desired results over the initial code which works.
+
+The second error here refers to a lower section that I coded in for future releases of information and content for the lineup page and so looks at the following lines which feature a commented heading which is in place for development.
+`<section id="lineup-lower-section">
+      <h3><!-- lower section for additional lineup content in future--></h3>
+      <div id="lineup-lower">
+        <p></p>
+      </div>
+    </section>`
+
+Gallery HTML validation Check Results
+
+![gallery page html results](assets\images\readme-images\image20.png)
+
+
 
 **Accessibility - Lighthouse Rating**
 
-![index.html About Page rating]({3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png)
+![index.html About Page rating](assets\images\readme-images\3D617FBF-22A3-463E-B99C-25E0D76F3B95.png)
 - This rating demonstrates good accessibility, best practices, and SEO, however, the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
 After some recommended optimisation of all images to .webp files with a size of under 100kb and reducing Google fonts to just two weighted classes, we have now achieved a slightly higher performance rating for the index.html page.
 
-![improved About Page rating](image-3.png)
+![improved About Page rating](assets\images\readme-images\image-3.png)
 
-![Lineup Page rating](image-4.png)
+![Lineup Page rating](assets\images\readme-images\image-4.png)
 - a slightly slower load time due to the .mp4 file, but overall good scores.
 
-![Ticket Page ratings](image-2.png)
+![Ticket Page ratings](assets\images\readme-images\image-2.png)
 - As expected from this relatively simple form page, excellent Lighthouse ratings across the board.
 
-![Gallery page rating](image-5.png)
+![Gallery page rating](assets\images\readme-images\image-5.png)
 - This performance rating is to be expected with multiple images to load initially on page load.
 
 **Bugs discovered**
 
-![Error handling Response found](image.png)
+![Error handling Response found](assets\images\readme-images\image.png)
 
-![Page Titles not unique](image-6.png)
+![Page Titles not unique](assets\images\readme-images\image-6.png)
 
 **Solved Bugs:**
 
-![Unneccesary ALT tag](image-7.png)
+![Unneccesary ALT tag](assets\images\readme-images\image-7.png)
 
-![Duplicate autoplay attributes](image-8.png)
+![Duplicate autoplay attributes](assets\images\readme-images\image-8.png)
 
-![Title situated outside of Head parameters](image-9.png)
+![Title situated outside of Head parameters](assets\images\readme-images\image-9.png)
 
-![End tag required for </section> element](image-10.png)
+![End tag required for </section> element](assets\images\readme-images\image-10.png)
 
-![Video height defined incorrectly](image-11.png)
+![Video height defined incorrectly](assets\images\readme-images\image-11.png)
 
-![CSS Validation fix](image-12.png)
+![CSS Validation fix](assets\images\readme-images\image-12.png)
 
 # Deployment
 
