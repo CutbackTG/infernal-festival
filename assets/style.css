@@ -36,7 +36,7 @@ h4 {
 
 /* Header */
 header {
-  background-color: #313131;
+  background-color: #1a1a1a;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -59,7 +59,7 @@ header a {
 /* Navbar */
 nav {
   position: absolute;
-  background-color: #313131;
+  background-color: #1a1a1a;
   width: 100%;
   left: 0;
   top: 100%;

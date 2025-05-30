@@ -233,12 +233,12 @@ Mobile first design:<br>
 <br>
 <img src= assets\images\readme-images\image-13.png alt= "W3C CSS Validator Results" width= 600>
 
-HTML Page validator results run from W3C on source code.
-Index Html
+<br>HTML Page validator results run from W3C on source code.
+Index Html<br>
 <br>
 <img src= assets\images\readme-images\image-18.png alt= "Index html source code validation check" width= 600>
 
-Lineup HTML W3C validation checker shows two expected issues.
+<br>Lineup HTML W3C validation checker shows two expected issues.<br>
 <br>
 <img src= assets\images\readme-images\image-19.png alt= "Lineup Html W3c results" width= 600>
 
@@ -258,7 +258,7 @@ The second error here refers to a lower section that I coded in for future relea
       </div>
     </section>`
 
-Gallery HTML validation Check Results
+<br>Gallery HTML validation Check Results<br>
 <br>
 <img src= assets\images\readme-images\image20.png alt= "gallery page html results" width= 600>
 
@@ -270,6 +270,15 @@ Gallery HTML validation Check Results
 - This rating demonstrates good accessibility, best practices, and SEO, however, the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
 After some recommended optimisation of all images to .webp files with a size of under 100kb and reducing Google fonts to just two weighted classes, we have now achieved a slightly higher performance rating for the index.html page.
+
+The contrast does however come up as a failure as the red in the logo and the dark grey background provide an insufficient contrast for accessibility best practice (see image below)<br>
+<br>
+<img src= assets\images\readme-images\contrast-failure.png alt= "lighthouse contrast failure report" width= 600>
+
+<br>To amend this I have changed the background colour from  #313131 to #1a1a1a that we have used elsewhere on the design, which smartens up the design of the site and addresses the contrast issue to suit best practices for accessible website design and raising the accessibility score to 100
+<br>
+<img src= assets\images\readme-images\contrast-issue-fixed.png alt= "lighthouse score update" width= 600>
+
 
 ![improved About Page rating](assets\images\readme-images\image-3.png)
 
