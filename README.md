@@ -2,7 +2,7 @@ Project One: Infernal Festival Website
 ======================================
 **Author:** *Tyler Worth*
 
-<img src=assets\images\readme-images\{3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2.png} alt ="Infernal Festival Responsive Screens">
+<img src=assets\images\readme-images\3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2.png alt ="Infernal Festival Responsive Screens">
 
 # Project Description
 
@@ -38,18 +38,18 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 Minimalist colour palette design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
 
-<img src= assets\images\readme-images\{image-14.png} alt ="Minimalist colour pallette" width= 600>
+<img src= assets\images\readme-images\image-14.png alt ="Minimalist colour pallette" width= 600>
 
 Contemporary inspirations from the Netflix logo and website design for customer familiarisation.
 
-<img src= assets\images\readme-images\{image-15.png} alt= "Netflix logo" width= 400>
+<img src= assets\images\readme-images\image-15.png alt= "Netflix logo" width= 400>
 
-<img src= assets\images\readme-images\{image-16.png} alt= "Netflix website landing page" width= 600>
+<img src= assets\images\readme-images\image-16.png alt= "Netflix website landing page" width= 600>
 Available at https://www.netflix.com/gb/
 
 In addition to the minimalistic branding and styling of Marshall amplifiers.
 
-<img src= assets\images\readme-images\{image-17.png} alt= "Marshall Amps homepage" width= 600>
+<img src= assets\images\readme-images\image-17.png alt= "Marshall Amps homepage" width= 600>
 Available at https://www.marshall.com/gb/en 
 
 # UX
