@@ -294,23 +294,36 @@ Lighthouse rating for Lineup page:<br>
 
 **Bugs discovered**
 
-![Error handling Response found](assets\images\readme-images\image.png)
-
-![Page Titles not unique](assets\images\readme-images\image-6.png)
 
 **Solved Bugs:**
 
-![Unneccesary ALT tag](assets\images\readme-images\image-7.png)
+<br>On first run of checking my html code for Index.html I was presented with the following error (see image below) which addressed that I had failed to give each of my page titles a unique value and so I jumped back into my header code and changed values to Infernal Festival, Infernal Festival Lineup, " " Gallery .etc<br>
+<img src= assets\images\readme-images\image-6.png alt= "Page Titles not unique" width= 600>
+<br>
 
-![Duplicate autoplay attributes](assets\images\readme-images\image-8.png)
+<br>
+<img src= assets\images\readme-images\image-7.png alt= "Unneccesary ALT tag" width= 600>
+<br>
 
-![Title situated outside of Head parameters](assets\images\readme-images\image-9.png)
+<br>
+<img src= assets\images\readme-images\image-8.png alt= "Duplicate autoplay attributes" width= 600>
+<br>
 
-![End tag required for </section> element](assets\images\readme-images\image-10.png)
+<br>
+<img src= assets\images\readme-images\image-9.png alt= "Title situated outside of Head parameters" width= 600>
+<br>
 
-![Video height defined incorrectly](assets\images\readme-images\image-11.png)
+<br>
+<img src= assets\images\readme-images\image-10.png alt= "End tag required for </section> element" width= 600>
+<br>
 
-![CSS Validation fix](assets\images\readme-images\image-12.png)
+<br>
+<img src= assets\images\readme-images\image-11.png alt= "Video height defined incorrectly" width= 600>
+<br>
+
+<br>
+<img src= assets\images\readme-images\image-12.png alt= "CSS Validation fix" width= 600>
+<br>
 
 # Deployment
 
