@@ -212,29 +212,35 @@ Name & Email address
 
 Home Page Design Concept - Mobile first<br>
 <br>Mobile first design:<br>
+<br>
 <img src= assets/wireframes/home-page-mobiledevice.png alt= "Home page mobile first design" width= 600>
 <br>Desktop Monitor design:<br>
+<br>
 <img src= assets/wireframes/home-page-pcdevice.png alt= "Pc Monitor Home page design" width= 600>
 
 <br>Lineup Page Design Concept<br>
 
 Mobile first design:<br>
+<br>
 <img src= assets/wireframes/lineup-page-mobiledevice.png alt= "Line up Page mobile design" width= 600>
 <br>Desktop Monitor design:<br>
+<br>
 <img src= assets/wireframes/lineup-page-pcdevice.png alt= "Line up Page pc design" width= 600>
 
 # Testing & Accessibility
 
-![W3C CSS Validator Results](assets\images\readme-images\image-13.png)
+<br>W3C CSS validator results<br>
+<br>
+<img src= assets\images\readme-images\image-13.png alt= "W3C CSS Validator Results" width= 600>
 
 HTML Page validator results run from W3C on source code.
 Index Html
-
-![Index html source code validation check](assets\images\readme-images\image-18.png)
+<br>
+<img src= assets\images\readme-images\image-18.png alt= "Index html source code validation check" width= 600>
 
 Lineup HTML W3C validation checker shows two expected issues.
-
-![Lineup Html W3c results](assets\images\readme-images\image-19.png)
+<br>
+<img src= assets\images\readme-images\image-19.png alt= "Lineup Html W3c results" width= 600>
 
 The first error here is the unexpected value of a percentage rather than a whole number, however to keep this element adaptable and display perfectly on our various media queries a static number fails to work. I did experiment with using a CSS order for 
 `line-up-video {
@@ -243,7 +249,8 @@ The first error here is the unexpected value of a percentage rather than a whole
 
 however this also did not return the desired results over the initial code which works.
 
-The second error here refers to a lower section that I coded in for future releases of information and content for the lineup page and so looks at the following lines which feature a commented heading which is in place for development.
+The second error here refers to a lower section that I coded in for future releases of information and content for the lineup page and so looks at the following lines which feature a commented heading which is in place for development.<br>
+
 `<section id="lineup-lower-section">
       <h3><!-- lower section for additional lineup content in future--></h3>
       <div id="lineup-lower">
@@ -252,14 +259,14 @@ The second error here refers to a lower section that I coded in for future relea
     </section>`
 
 Gallery HTML validation Check Results
-
-![gallery page html results](assets\images\readme-images\image20.png)
-
-
+<br>
+<img src= assets\images\readme-images\image20.png alt= "gallery page html results" width= 600>
 
 **Accessibility - Lighthouse Rating**
 
-![index.html About Page rating](assets\images\readme-images\3D617FBF-22A3-463E-B99C-25E0D76F3B95.png)
+<br>
+<img src= assets\images\readme-images\3D617FBF-22A3-463E-B99C-25E0D76F3B95.png alt= "index.html About Page rating" width= 600>
+
 - This rating demonstrates good accessibility, best practices, and SEO, however, the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
 After some recommended optimisation of all images to .webp files with a size of under 100kb and reducing Google fonts to just two weighted classes, we have now achieved a slightly higher performance rating for the index.html page.
