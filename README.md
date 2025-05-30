@@ -294,23 +294,10 @@ Lighthouse rating for Lineup page:<br>
 
 **Bugs discovered**
 
-The "prettier" code formatter seems to add some unneccessary tail slashes on source code that register in Chrome devtools as required fixes and need to be deleted before bug testing can continue, see the following example of where prettier has added the tail slashes that have been removed from the source code.
-
-`<meta
-      name="description"
-      content="Infernal Festival is a metal and alternative music festival in Scorrier, Cornwall. It features a diverse lineup of bands and artists, with a focus on heavy music genres. The festival takes place in a scenic location and offers a unique experience for music lovers."
-    />
-    <meta
-      name="keywords"
-      content="Infernal Festival, metal festival, alternative music, Scorrier, Cornwall, heavy music, live music, music festival"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@400;700&display=swap"
-      rel="stylesheet"
-    />`
-
+The "prettier" code formatter seems to add some unneccessary tail slashes on source code that register in Chrome devtools as required fixes and need to be deleted before bug testing can continue, see the following example of where prettier has added the tail slashes that have been removed from the source code.<br>
+<br>
+<img src= assets\images\readme-images\prettier-bug.png alt= "Prettier adding syntax" width= 600>
+<br>
 
 **Solved Bugs:**
 
