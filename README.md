@@ -281,16 +281,16 @@ The contrast does however come up as a failure as the red in the logo and the da
 
 Lighthouse rating for Lineup page:<br>
 <br>
-<img src= assets\images\readme-images\image-4.png alt= "Lineup Page rating" width= 600>
-<br>- a slightly slower load time due to the .mp4 file, but overall good scores.<br>
+<img src= assets\images\readme-images\lineup-lighthouse-score.png alt= "Lineup Page rating" width= 600>
+<br>
 
 <br>Lighthouse rating for Ticket page:<br>
-<img src= assets\images\readme-images\image-2.png alt= "Ticket Page ratings" width= 600>
+<img src= assets\images\readme-images\ticket-lighthouse-score.png alt= "Ticket Page ratings" width= 600>
 <br>- As expected from this relatively simple form page, excellent Lighthouse ratings across the board.<br>
 
 <br>Lighthouse rating for Gallery page:<br>
-<img src= assets\images\readme-images\image-5.png alt= "Gallery page rating" width= 600>
-<br>- This performance rating is to be expected with multiple images to load initially on page load.<br>
+<img src= assets\images\readme-images\gallery-lighthouse-score.png alt= "Gallery page rating" width= 600>
+<br>- This performance rating is better than I expected with multiple images to load initially on page load.<br>
 
 **Bugs discovered**
 
