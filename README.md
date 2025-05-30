@@ -265,7 +265,7 @@ The second error here refers to a lower section that I coded in for future relea
 **Accessibility - Lighthouse Rating**
 
 <br>
-<img src= assets\images\readme-images\3D617FBF-22A3-463E-B99C-25E0D76F3B95.png alt= "index.html About Page rating" width= 600>
+<img src= assets\images\readme-images\{3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png alt= "index.html About Page rating" width= 600>
 
 - This rating demonstrates good accessibility, best practices, and SEO, however, the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
@@ -275,21 +275,22 @@ The contrast does however come up as a failure as the red in the logo and the da
 <br>
 <img src= assets\images\readme-images\contrast-failure.png alt= "lighthouse contrast failure report" width= 600>
 
-<br>To amend this I have changed the background colour from  #313131 to #1a1a1a that we have used elsewhere on the design, which smartens up the design of the site and addresses the contrast issue to suit best practices for accessible website design and raising the accessibility score to 100
+<br>To amend this I have changed the background colour from  #313131 to #1a1a1a that we have used elsewhere on the design, which smartens up the design of the site and addresses the contrast issue to suit best practices for accessible website design and raising the accessibility score to 100<br>
 <br>
 <img src= assets\images\readme-images\contrast-issue-fixed.png alt= "lighthouse score update" width= 600>
 
+Lighthouse rating for Lineup page:<br>
+<br>
+<img src= assets\images\readme-images\image-4.png alt= "Lineup Page rating" width= 600>
+<br>- a slightly slower load time due to the .mp4 file, but overall good scores.<br>
 
-![improved About Page rating](assets\images\readme-images\image-3.png)
+<br>Lighthouse rating for Ticket page:<br>
+<img src= assets\images\readme-images\image-2.png alt= "Ticket Page ratings" width= 600>
+<br>- As expected from this relatively simple form page, excellent Lighthouse ratings across the board.<br>
 
-![Lineup Page rating](assets\images\readme-images\image-4.png)
-- a slightly slower load time due to the .mp4 file, but overall good scores.
-
-![Ticket Page ratings](assets\images\readme-images\image-2.png)
-- As expected from this relatively simple form page, excellent Lighthouse ratings across the board.
-
-![Gallery page rating](assets\images\readme-images\image-5.png)
-- This performance rating is to be expected with multiple images to load initially on page load.
+<br>Lighthouse rating for Gallery page:<br>
+<img src= assets\images\readme-images\image-5.png alt= "Gallery page rating" width= 600>
+<br>- This performance rating is to be expected with multiple images to load initially on page load.<br>
 
 **Bugs discovered**
 
