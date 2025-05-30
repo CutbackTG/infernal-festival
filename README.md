@@ -2,7 +2,7 @@ Project One: Infernal Festival Website
 ======================================
 **Author:** *Tyler Worth*
 
-![Infernal Festival Responsive Screens]<img src=assets\images\readme-images\{3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png>
+<img src=assets\images\readme-images\{3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png alt ="Infernal Festival Responsive Screens" width= 400>
 
 # Project Description
 
@@ -38,7 +38,7 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 
 Minimalist colour palette design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
 
-![Minimalist colour pallette](assets\images\readme-images\image-14.png)
+<img src= assets\images\readme-images\image-14.png alt ="Minimalist colour pallette" width= 400> 
 
 Contemporary inspirations from the Netflix logo and website design for customer familiarisation.
 
