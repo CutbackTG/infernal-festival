@@ -53,17 +53,6 @@ In addition to the minimalistic branding and styling of Marshall amplifiers.
 ![Marshall Amps homepage](assets\images\readme-images\image-17.png)
 https://www.marshall.com/gb/en 
 
-**Wireframes**
-
-Home Page Design Concept - Mobile first
-![Home page mobile first design](assets/wireframes/home-page-mobiledevice.png)
-![Pc Monitor Home page design](assets/wireframes/home-page-pcdevice.png)
-
-Lineup Page Design Concept
-
-![Line up Page mobile design](assets/wireframes/lineup-page-mobiledevice.png)
-![Line up Page pc design](assets/wireframes/lineup-page-pcdevice.png)
-
 # UX
 
 **User Stories**
@@ -219,6 +208,17 @@ Design an attractive sign-up section or banner for the homepage and key pages.
 **Development**
 Create the sign-up form with fields for:
 Name & Email address
+
+**Wireframes**
+
+Home Page Design Concept - Mobile first
+![Home page mobile first design](assets/wireframes/home-page-mobiledevice.png)
+![Pc Monitor Home page design](assets/wireframes/home-page-pcdevice.png)
+
+Lineup Page Design Concept
+
+![Line up Page mobile design](assets/wireframes/lineup-page-mobiledevice.png)
+![Line up Page pc design](assets/wireframes/lineup-page-pcdevice.png)
 
 # Testing & Accessibility
 
