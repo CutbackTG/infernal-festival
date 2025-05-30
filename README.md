@@ -45,8 +45,8 @@ Contemporary inspirations from the Netflix logo and website design for customer 
 <img src= assets\images\readme-images\image-15.png alt= "Netflix logo" width= 400>
 
 <img src= assets\images\readme-images\image-16.png alt= "Netflix website landing page" width= 600>
-Available at https://www.netflix.com/gb/
-
+Available at https://www.netflix.com/gb/<br>
+<br>
 In addition to the minimalistic branding and styling of Marshall amplifiers.
 
 <img src= assets\images\readme-images\image-17.png alt= "Marshall Amps homepage" width= 600>
@@ -210,14 +210,18 @@ Name & Email address
 
 **Wireframes**
 
-Home Page Design Concept - Mobile first
-![Home page mobile first design](assets/wireframes/home-page-mobiledevice.png)
-![Pc Monitor Home page design](assets/wireframes/home-page-pcdevice.png)
+Home Page Design Concept - Mobile first<br>
+<br>Mobile first design:<br>
+<img src= assets/wireframes/home-page-mobiledevice.png alt= "Home page mobile first design" width= 600>
+<br>Desktop Monitor design:<br>
+<img src= assets/wireframes/home-page-pcdevice.png alt= "Pc Monitor Home page design" width= 600>
 
-Lineup Page Design Concept
+<br>Lineup Page Design Concept<br>
 
-![Line up Page mobile design](assets/wireframes/lineup-page-mobiledevice.png)
-![Line up Page pc design](assets/wireframes/lineup-page-pcdevice.png)
+Mobile first design:<br>
+<img src= assets/wireframes/lineup-page-mobiledevice.png alt= "Line up Page mobile design" width= 600>
+<br>Desktop Monitor design:<br>
+<img src= assets/wireframes/lineup-page-pcdevice.png alt= "Line up Page pc design" width= 600>
 
 # Testing & Accessibility
 
