@@ -64,17 +64,17 @@
             </div>
           </div>
           <div>
-            <form id="contact-form">
+            <form id="contact-form" action="#thank-you-modal">
               <div>
                 <label for="full-name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="full-name">
+                <input type="text" class="form-control" id="full-name" name="full-name" placeholder="Full Name" required  pattern="^[A-Za-z\s]{2,}$" title="Please enter your full name using only letters and spaces">
               </div>
               <div>
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
               </div>
               <div>
-                <a href="#thank-you-modal" class="cta-button-buy-tickets">Send</a>
+                <button type="submit" class="cta-button-buy-tickets">Send</button>
               </div>
             </form>
           </div>
