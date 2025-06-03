@@ -283,7 +283,7 @@ The contrast does however come up as a failure as the red in the logo and the da
 <br>
 <img src= assets\images\readme-images\contrast-issue-fixed.png alt= "lighthouse score update" width= 600>
 
-Lighthouse rating for Lineup page:<br>
+<br>Lighthouse rating for Lineup page:<br>
 <br>
 <img src= assets\images\readme-images\lineup-lighthouse-score.png alt= "Lineup Page rating" width= 600>
 <br>
@@ -301,6 +301,18 @@ Lighthouse rating for Lineup page:<br>
 The "prettier" code formatter seems to add some unneccessary tail slashes on source code that register in Chrome devtools as required fixes and need to be deleted before bug testing can continue, see the following example of where prettier has added the tail slashes that have been removed from the source code.<br>
 <br>
 <img src= assets\images\readme-images\prettier-bug.png alt= "Prettier adding syntax" width= 600>
+<br>
+
+<br>Ticket Form generated a 404 error page on submit after adding validation checks opening up a new url<br>
+<br>
+<img src= assets\images\readme-images\submit-error.png alt= "ticket form 404 error" width= 600>
+<br>This was solved after some quick research via google where a # was required before the value ettributed to the form action to open the modal on the same page instead of going to a new url and generating teh 404 error.<br>
+<br>
+<img src= assets\images\readme-images\submit-fix.png alt= "ticket form fix" width= 600>
+
+<br>After some further reading into validating alphanumeric fields using Regex I found that my first validation set for the ticket form which utilised an expected entry pattern of `pattern="^[A-Za-z\s]{2,}$"` that looked just for alphabetical entries and spaces actually wouldn't accept international symbols such as the Germanic umlaut and so would not be suitable for a potential international audience.
+
+An article by Sanders.T (Sanders, 2021) addresses precisely this issue and suggests instead the use of unicode characters in your Regex entries and so presented me with a much more internationally friendly expected pattern of `pattern="^[\p{Letter}\p{Mark}\s-]+/gu"` that allows the use of letter-mark combinations and hyphens for hyphenated surnames.<br>
 <br>
 
 **Solved Bugs:**
@@ -484,8 +496,6 @@ And classified in from line 32 in the #index.html, Gallery, Lineup and Tickets s
   </nav>
 </header>`
 
-https://www.linkedin.com/in/clinton-joy-538804244 (2025). Introducing The All New LT Browser 2.0!🖥️ | LambdaTest. [online] LambdaTest. Available at: https://www.lambdatest.com/blog/glowing-effects-in-css/ [Accessed 6 May 2025].
-
 Code resourced to centre Modal to the centre of the screen by user Vlad Udod on the Stackoverflow website
 
 `.center {
@@ -508,8 +518,14 @@ And adapted on line 320 of my #style.css file
   background-color: rgba(0, 0, 0, 0.6);
 }`
 
-Stack Overflow (2024). Stack Overflow - Where Developers Learn, Share, & Build Careers. [online] Stack Overflow. Available at: https://stackoverflow.com/.
-
 # Media:
 
 All images and videos have been generated using Nightcafe's RealVisXL v5 Lightning: AI Generation of copyright-free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
+
+# References
+
+https://www.linkedin.com/in/clinton-joy-538804244 (2025). Introducing The All New LT Browser 2.0!🖥️ | LambdaTest. [online] LambdaTest. Available at: https://www.lambdatest.com/blog/glowing-effects-in-css/ [Accessed 6 May 2025].
+
+Sanders, T. (2021). Let’s stop using [a-zA-Z]+. [online] DEV Community. Available at: https://dev.to/tillsanders/let-s-stop-using-a-za-z-4a0m [Accessed 3 Jun. 2025].
+
+Stack Overflow (2024). Stack Overflow - Where Developers Learn, Share, & Build Careers. [online] Stack Overflow. Available at: https://stackoverflow.com/.

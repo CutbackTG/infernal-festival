@@ -69,6 +69,7 @@
                 <label for="full-name" class="form-label">Full Name</label>
                 <input type="text" class="form-control" id="full-name" name="full-name" placeholder="Full Name" required  pattern="^[\p{Letter}\p{Mark}\s-]+/gu" title="Please enter your full name using only letters and spaces">
               </div>
+              <!-- Regex line for accepting unicode letters and mark combinations, spaces and hyphens from (Sanders, 2021) -->
               <div>
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
