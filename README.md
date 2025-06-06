@@ -34,6 +34,104 @@ Ticket contact Form: Ahead of a ticket purchasing system, the website features a
 - GitHub Pages: Hosting the live version of the project.
 - RealVisXL v5 Lightning: AI Generation of copyright-free images of simulated events and photography. Engine hosted by https://creator.nightcafe.studio/explore 
 
+# Website Walkthrough
+
+**Landing Page**
+
+The Landing page features a large hero image of the festival main stage mid-performance, with the festical logo situated in the top left and a functional navigation bar linking to all four website pages with hover-over highlighting effects and an underline selction identifier for the current page displaying to the user.
+
+Below the hero image are two bold call to action buttons linking to the performer "Line-up" page and another to navigate to the ticket information/ purchasing page.<br>
+
+<img src= assets\images\readme-images\landing-page-upper.png alt ="Infernal Festival Landing Page Upper" width= 600>
+
+<br>The lower section of the landing page features another large image of the location at The Scorrier Estate, Cornwall with a brief about section for the event.
+Below this is a section promoting our event sponsors with functional links on the logo images once clicked and a social links footer below the sponsors which navigate to our selected social media sites.<br>
+
+<img src= assets\images\readme-images\landing-page-lower.png alt ="Infernal Festival Landing Page Lower" width= 600>
+
+**Line-Up Page**
+
+The line-up page features a large looping video of a previous performance on the main stage at the festival with user controls for the media player visible on hover-over.
+
+Overlaying this video is a list of the headline acts for the festival and their relevant stages on a reduced opacity background.
+
+<img src= assets\images\readme-images\lineup-page-upper.png alt ="Infernal Festival Line-up Page Upper" width= 600>
+
+The lower section of the line-up page has a designed background with a simple overlay displaying supporting acts and upcoming acts to be announced for the users.
+This lower section mirrors the lower of the Landing Page, once again featuring our linked sponsors logos and our social media navigation footer.<br>
+
+<img src= assets\images\readme-images\lineup-page-lower.png alt ="Infernal Festival Line-up Page Lower" width= 600>
+
+**Tickets Page**
+
+The tickets page features a simple sign-up form for further information about tickets as a precursing element before the launch of a functional ecommerce page to purchase tickets.
+The form itself features placeholder entries for Full Name and Email Address and validations checks on each for correct data entry formats including regex alphabetical, spaces and mark symbols in names, allowing international letters in names and hyphenated surnames etc. and correct email formats.
+
+A clear submit button actions the validation checks and if passed, displays a pop-up modal that notifies the user that they have been added to the mailing list for Infernal Festival.
+
+The footer of the page once again features our social media navigation footer for more information.<br>
+
+<img src= assets\images\readme-images\tickets-page.png alt ="Infernal Festival Tickets Page" width= 600>
+
+**Gallery Page**
+
+The gallery serves as a visual guide to the aesthetics and "feel" of the event as requested in the user stories, with images of previous performances, the venue site itself and the different stages with alternate text for each image included.
+
+Our social media footer again features on this page continuing the familiarisation for the entire website.<br>
+
+<img src= assets\images\readme-images\gallery-page.png alt ="Infernal Festival Gallery Page" width= 600>
+
+
+# User Experience (UX)
+
+# User Stories
+
+**1. First-Time Visitor 1:**
+
+*As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
+
+**Acceptance Criteria**
+- There is a clear, intuitive main navigation menu visible at the top of every page.
+- The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
+- Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
+- Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
+- Ticket sales page and the festival line-up are each clearly laid out on their own dedicated pages.
+- The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
+- Site structure follows logical paths — no dead ends or hidden links.
+- The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
+- Accessibility is considered (e.g., clear button labels, focus states, screen reader support).
+- Users report finding tickets and line-up info quickly during usability testing (target: under 20 seconds).
+
+**2. First-Time Visitor 2:**
+
+*As a First-Time Visitor, I want to easily understand the main purpose of the site and learn more about the festival, so I can quickly determine if this is the kind of event I would enjoy attending. I want to see a visually striking homepage that showcases the festival’s vibe, past events, and overall atmosphere through videos, images, and key details.*
+
+**Acceptance Criteria**
+- The homepage clearly states the festival’s name, theme, and dates at first glance.
+- A short, engaging headline and sub-headline explain what the festival is about.
+- There is a prominent "About the Festival" section or call-to-action (CTA) leading to more information.
+- High-quality videos and/or image galleries showcase past events and the overall vibe.
+- The visual design feels exciting, modern, and aligned with the festival's identity.
+- The site loads quickly despite media-rich content.
+- The layout is responsive and mobile-friendly.
+- Accessibility standards are met (e.g., alt text for images, video captions).
+- First-time visitors should be able to answer "What is this event?" and "Does it interest me?" within 30 seconds of landing.
+
+**3. First-time Visitor 3**
+
+*As a First-Time Visitor, I want to locate social media links to check out the festival’s community and engagement, so I can see how popular and reputable the event is. I expect links to be easy to find and to lead me directly to platforms like Instagram, TikTok, and Facebook, where I can view festival highlights, band interactions, and community excitement.*
+
+**Acceptance Criteria**
+- Social media icons/links are prominently placed on the homepage (e.g., header, footer, or a sticky sidebar).
+- Links lead directly to the festival’s official accounts on Instagram, TikTok, and Facebook (open in a new tab).
+- The icons are easily recognizable, using standard, official platform logos.
+- Social media links are also present on key pages like "Line-up," "About," and "Buy Tickets."
+- Hover states or tooltips clarify the destination of each link (e.g., "Follow us on Instagram").
+- Links are accessible (e.g., labelled properly for screen readers).
+- Users can easily find and access the festival's social media presence within 10 seconds of landing on the site during testing.
+
+Please visit section [Testing User stories from User Experience (UX)] (#testing-user-stories-from-user-experience-(ux)) for targeted testing to match these user defined requirements. 
+
 # Design
 
 Minimalist colour palette design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
@@ -52,161 +150,8 @@ In addition to the minimalistic branding and styling of Marshall amplifiers.
 <img src= assets\images\readme-images\image-17.png alt= "Marshall Amps homepage" width= 600>
 Available at https://www.marshall.com/gb/en 
 
-# UX
-
-**User Stories**
-
-**1. First-Time Visitor 1:**
-
-*As a First-Time Visitor, I want to be able to easily navigate the site to find information about tour dates, ticket prices, and the festival line-up, so I don’t have to spend time searching for the details I need to decide to purchase tickets. I expect clear menus, sections, and call-to-action buttons that lead me to key pages like "Buy Tickets" and "Line-up."*
-
-**Acceptance Criteria**
-- There is a clear, intuitive main navigation menu visible at the top of every page.
-- The navigation menu includes direct links to "Buy Tickets," "Line-up," and "About."
-- Key pages like "Buy Tickets" and "Line-up" are reachable within one click from the homepage.
-- Prominent call-to-action (CTA) buttons for "Buy Tickets" and "View Line-up" are placed on the homepage.
-- Ticket sales page and the festival line-up are each clearly laid out on their own dedicated pages.
-- The navigation adapts responsively for mobile (e.g., collapses into a hamburger menu).
-- Site structure follows logical paths — no dead ends or hidden links.
-- The homepage and other key pages include in-page links or banners pointing to "Buy Tickets" and "Line-up."
-- Accessibility is considered (e.g., clear button labels, focus states, screen reader support).
-- Users report finding tickets and line-up info quickly during usability testing (target: under 20 seconds).
-
-**Tasks**
-
-**Content Planning**
-- Create content for "Tour Dates," "Ticket Prices," and "Festival Line-up" pages.
-- Write strong CTA button text (e.g., "Get Your Tickets," "See the Full Line-up").
-
-**Design**
-- Design a clear navigation bar with prominent links to all key sections.
-- Create homepage CTA sections (banner, feature blocks, or sticky buttons) linking directly to "Buy Tickets" and "Line-up."
-- Design mobile navigation (hamburger menu) for smaller screens.
-
-**Development**
-- Build a consistent, site-wide header with a navigation menu.
-Develop dedicated pages for:
-- Ticket Prices (clear breakdown of pricing tiers, early bird discounts, etc.).
-- Festival Line-up (artist names, times, stages if available).
-- Implement anchor links and CTAs on the homepage to key pages.
-- Set up a sticky header (optional) to keep navigation accessible while scrolling.
-
-**Accessibility**
-- Ensure navigation is keyboard navigable and screen reader friendly.
-- Add clear focus indicators for clickable elements.
-- Make CTA buttons descriptive (avoid "Click Here" — be specific, like "Buy Festival Tickets").
-
-**Testing**
-- Perform usability testing with first-time visitors — measure how long it takes them to find tour dates, ticket info, and line-up.
-- Test navigation functionality across browsers and devices (desktop, mobile, tablet).
-- Conduct accessibility audits using Lighthouse.
-
-**Performance**
-- Minimize any JavaScript or CSS that could slow down menu interactions.
-- Optimise images/icons used in navigation.
-
-**2. First-Time Visitor 2:**
-
-*As a First-Time Visitor, I want to easily understand the main purpose of the site and learn more about the festival, so I can quickly determine if this is the kind of event I would enjoy attending. I want to see a visually striking homepage that showcases the festival’s vibe, past events, and overall atmosphere through videos, images, and key details.*
-
-**Acceptance Criteria**
-- The homepage clearly states the festival’s name, theme, and dates at first glance.
-- A short, engaging headline and sub-headline explain what the festival is about.
-- There is a prominent "About the Festival" section or call-to-action (CTA) leading to more information.
-- High-quality videos and/or image galleries showcase past events and the overall vibe.
-- The visual design feels exciting, modern, and aligned with the festival's identity.
-- The site loads quickly despite media-rich content.
-- The layout is responsive and mobile-friendly.
-- Accessibility standards are met (e.g., alt text for images, video captions).
-- First-time visitors should be able to answer "What is this event?" and "Does it interest me?" within 30 seconds of landing.
-
-**Tasks**
-Content Gathering
-- Collect high-quality images and videos from past events.
-- Write a concise and engaging festival description (headline + short paragraph).
-- Gather key details (dates, location, major highlights).
-
-**Design**
-- Create a homepage wireframe that prioritizes visuals and key info above the fold.
-- Design a visually striking hero section featuring a video or image carousel.
-- Design an "About the Festival" section with CTA buttons for more details.
-
-**Development**
-- Implement the homepage layout using responsive design practices.
-- Embed video(s) with auto-play muted option and fall-back images for slow connections.
-- Add an image gallery section showcasing past events.
-- Implement lightweight animations for a dynamic, engaging experience.
-
-**Accessibility**
-- Add alt text to all images.
-- Make sure colour contrast and font sizes meet accessibility standards.
-
-**Performance Optimization**
-- Optimize all media assets for fast load times (compression, lazy loading).
-- Test homepage speed and fix any issues slowing it down.
-
-**Testing**
-- Conduct user testing with first-time visitors to confirm they understand the festival within 30 seconds.
-- Test responsiveness across different devices and browsers.
-
-**3. First-time Visitor 3**
-
-*As a First-Time Visitor, I want to locate social media links to check out the festival’s community and engagement, so I can see how popular and reputable the event is. I expect links to be easy to find and to lead me directly to platforms like Instagram, TikTok, and Facebook, where I can view festival highlights, band interactions, and community excitement.*
-
-**Acceptance Criteria**
-- Social media icons/links are prominently placed on the homepage (e.g., header, footer, or a sticky sidebar).
-- Links lead directly to the festival’s official accounts on Instagram, TikTok, and Facebook (open in a new tab).
-- The icons are easily recognizable, using standard, official platform logos.
-- Social media links are also present on key pages like "Line-up," "About," and "Buy Tickets."
-- Hover states or tooltips clarify the destination of each link (e.g., "Follow us on Instagram").
-- Links are accessible (e.g., labelled properly for screen readers).
-- Users can easily find and access the festival's social media presence within 10 seconds of landing on the site during testing.
-
-**Tasks**
-
-**Content and Assets**
-- Collect official social media URLs for Instagram, TikTok, and Facebook.
-- Prepare visual assets (icons or badges) for each platform if custom ones are needed.
-
-**Design**
-- Design a social media bar/section for the homepage
-- Create a visually consistent set of social media icons that match the site’s design.
-
-**Development**
-- Add social media icons/links to site pages
-- Ensure all social media links open in new tabs.
-- Implement hover effects and accessible labels for icons.
-
-**Accessibility**
-- Ensure social media links are keyboard-navigable.
-- Add descriptive aria-labels (e.g., ).
-- Make sure icons have sufficient colour contrast and are visible on all backgrounds.
-
-**Testing**
-Test all social links to ensure they lead to the correct social media profiles.
-Test appearance and functionality across browsers and mobile devices.
-- Conduct user testing to confirm visitors can easily find and use the social media links within 10 seconds.
-
-**Performance and Optimization**
-- Optimize icons (SVG preferred for scalability and performance).
-
-**4. Returning/ frequent User 4**
-
-*As a Frequent User, I want to sign up for email or push notifications, so I never miss an important update about lineup changes, exclusive ticket sales, or last-minute schedule adjustments. I want to control my notification preferences to avoid spam but still get crucial alerts.
-
-**Acceptance Criteria**
-There is a clear option on the site inviting users to sign up for updates.
-The sign-up form collects only necessary information (e.g., name, email, notification preferences).
-
-**Content Creation**
-Write a sign-up form and a confirmation modal.
-
-**Design**
-Design an attractive sign-up section or banner for the homepage and key pages.
-
-**Development**
-Create the sign-up form with fields for:
-Name & Email address
+Typography
+The main font used throughout is the Lato font, a sans-serif font chosen for its modern design, readability and clean aesthetics with a fallback font of sans-serif if the user's browser fails to load Lato for any reason.
 
 **Wireframes**
 
@@ -295,6 +240,9 @@ The contrast does however come up as a failure as the red in the logo and the da
 <br>Lighthouse rating for Gallery page:<br>
 <img src= assets\images\readme-images\gallery-lighthouse-score.png alt= "Gallery page rating" width= 600>
 <br>- This performance rating is better than I expected with multiple images to load initially on page load.<br>
+
+**Testing User Stories from User Experience (UX)**
+
 
 **Bugs discovered**
 
