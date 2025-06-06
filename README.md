@@ -339,26 +339,41 @@ On first run of checking my html code for Index.html I was presented with the fo
 <img src= assets\images\readme-images\page-titles-not-unique.png alt= "Page Titles not unique" width= 600>
 <br>
 
+Unneccessary Alt tag entered on my video media resulted in an error, which was subsequently removed.
 <br>
 <img src= assets\images\readme-images\unnecessary-alt-tag.png alt= "Unneccesary ALT tag" width= 600>
 <br>
 
+I accidentally entered multiple attribes for autoplay on my video element.
 <br>
 <img src= assets\images\readme-images\duplicate-autoplay-attributes.png alt= "Duplicate autoplay attributes" width= 600>
 <br>
 
+Head element required a title entered to correct this error.
 <br>
 <img src= assets\images\readme-images\title-outside-of-head.png alt= "Title situated outside of Head parameters" width= 600>
 <br>
 
+I forgot to enter an end tag for this section element here, which was subsequently corrected.
 <br>
 <img src= assets\images\readme-images\end-tag-required.png alt= "End tag required for </section> element" width= 600>
 <br>
 
+Incorrect parameters defined for video element - this was corrected to the following entry:
+`<video
+          src="assets/Videos/line-up-video/lineup-video.mp4"
+          width = 100%
+          autoplay
+          loop
+          controls
+          muted
+          playsinline
+        ></video>`
 <br>
 <img src= assets\images\readme-images\video-height-incorrect.png alt= "Video height defined incorrectly" width= 600>
 <br>
 
+Video defined height incorrect and unneccessary this was corrected to only define a video width = 100% for all devices.
 <br>
 <img src= assets\images\readme-images\css-validation-fix.png alt= "CSS Validation fix" width= 600>
 <br>
