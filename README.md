@@ -315,7 +315,7 @@ Attractive Sign-Up Section: The sign-up form is designed to be visually appealin
 
 **Bugs discovered**
 
-The "prettier" code formatter seems to add some unneccessary tail slashes on source code that register in Chrome devtools as required fixes and need to be deleted before bug testing can continue, see the following example of where prettier has added the tail slashes that have been removed from the source code.<br>
+The "prettier" code formatter seemed to add some unneccessary tail slashes on source code that register in Chrome devtools as required fixes and need to be deleted before bug testing can continue, see the following example of where prettier has added the tail slashes that have been removed from the source code.<br>
 <br>
 <img src= assets\images\readme-images\prettier-bug.png alt= "Prettier adding syntax" width= 600>
 <br>
