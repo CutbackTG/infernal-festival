@@ -130,7 +130,7 @@ Our social media footer again features on this page continuing the familiarisati
 - Links are accessible (e.g., labelled properly for screen readers).
 - Users can easily find and access the festival's social media presence within 10 seconds of landing on the site during testing.
 
-Please visit section [Testing User stories from User Experience (UX)] (#testing-user-stories-from-user-experience-(ux)) for targeted testing to match these user defined requirements. 
+Please visit section [Testing User stories from User Experience (UX)] for targeted testing to match these user defined requirements. 
 
 # Design
 
