@@ -2,7 +2,7 @@ Project One: Infernal Festival Website
 ======================================
 **Author:** *Tyler Worth*
 
-<img src= assets\images\readme-images\{3A7B46AE-86C7-424A-8A14-F6ACE1AE46D2}.png alt ="Infernal Festival Responsive Screens" width= 800>
+<img src= assets\images\readme-images\infernal-festival-responsive-screens.png alt ="Infernal Festival Responsive Screens" width= 800>
 
 # Project Description
 
@@ -42,12 +42,12 @@ The Landing page features a large hero image of the festival main stage mid-perf
 
 Below the hero image are two bold call to action buttons linking to the performer "Line-up" page and another to navigate to the ticket information/ purchasing page.<br>
 
-<img src= assets\images\readme-images\landing-page-upper.png alt ="Infernal Festival Landing Page Upper" width= 600>
+<img src= assets\images\readme-images\landing-page-upper.png alt ="Infernal Festival Landing Page Upper" width= 800>
 
 <br>The lower section of the landing page features another large image of the location at The Scorrier Estate, Cornwall with a brief about section for the event.
 Below this is a section promoting our event sponsors with functional links on the logo images once clicked and a social links footer below the sponsors which navigate to our selected social media sites.<br>
 
-<img src= assets\images\readme-images\landing-page-lower.png alt ="Infernal Festival Landing Page Lower" width= 600>
+<img src= assets\images\readme-images\landing-page-lower.png alt ="Infernal Festival Landing Page Lower" width= 800>
 
 **Line-Up Page**
 
@@ -55,12 +55,12 @@ The line-up page features a large looping video of a previous performance on the
 
 Overlaying this video is a list of the headline acts for the festival and their relevant stages on a reduced opacity background.
 
-<img src= assets\images\readme-images\lineup-page-upper.png alt ="Infernal Festival Line-up Page Upper" width= 600>
+<img src= assets\images\readme-images\lineup-page-upper.png alt ="Infernal Festival Line-up Page Upper" width= 800>
 
 The lower section of the line-up page has a designed background with a simple overlay displaying supporting acts and upcoming acts to be announced for the users.
 This lower section mirrors the lower of the Landing Page, once again featuring our linked sponsors logos and our social media navigation footer.<br>
 
-<img src= assets\images\readme-images\lineup-page-lower.png alt ="Infernal Festival Line-up Page Lower" width= 600>
+<img src= assets\images\readme-images\lineup-page-lower.png alt ="Infernal Festival Line-up Page Lower" width= 800>
 
 **Tickets Page**
 
@@ -71,7 +71,7 @@ A clear submit button actions the validation checks and if passed, displays a po
 
 The footer of the page once again features our social media navigation footer for more information.<br>
 
-<img src= assets\images\readme-images\tickets-page.png alt ="Infernal Festival Tickets Page" width= 600>
+<img src= assets\images\readme-images\tickets-page.png alt ="Infernal Festival Tickets Page" width= 800>
 
 **Gallery Page**
 
@@ -79,7 +79,7 @@ The gallery serves as a visual guide to the aesthetics and "feel" of the event a
 
 Our social media footer again features on this page continuing the familiarisation for the entire website.<br>
 
-<img src= assets\images\readme-images\gallery-page.png alt ="Infernal Festival Gallery Page" width= 600>
+<img src= assets\images\readme-images\gallery-page.png alt ="Infernal Festival Gallery Page" width= 800>
 
 
 # User Experience (UX)
@@ -136,18 +136,18 @@ Please visit section [Testing User stories from User Experience (UX)] (#testing-
 
 Minimalist colour palette design of Black, #1a1a1a & #e50000 for high contrast and elegant style.
 
-<img src= assets\images\readme-images\image-14.png alt ="Minimalist colour pallette" width= 600>
+<img src= assets\images\readme-images\minimalist-colour-pallette.png alt ="Minimalist colour pallette" width= 600>
 
 Contemporary inspirations from the Netflix logo and website design for customer familiarisation.
 
-<img src= assets\images\readme-images\image-15.png alt= "Netflix logo" width= 400>
+<img src= assets\images\readme-images\netflix-logo.png alt= "Netflix logo" width= 400>
 
-<img src= assets\images\readme-images\image-16.png alt= "Netflix website landing page" width= 600>
+<img src= assets\images\readme-images\netflix-landing-page.png alt= "Netflix website landing page" width= 600>
 Available at https://www.netflix.com/gb/<br>
 <br>
 In addition to the minimalistic branding and styling of Marshall amplifiers.
 
-<img src= assets\images\readme-images\image-17.png alt= "Marshall Amps homepage" width= 600>
+<img src= assets\images\readme-images\marshall-amps.png alt= "Marshall Amps homepage" width= 600>
 Available at https://www.marshall.com/gb/en 
 
 Typography
@@ -176,16 +176,16 @@ Mobile first design:<br>
 
 <br>W3C CSS validator results<br>
 <br>
-<img src= assets\images\readme-images\image-13.png alt= "W3C CSS Validator Results" width= 600>
+<img src= assets\images\readme-images\w3c-css-results.png alt= "W3C CSS Validator Results" width= 600>
 
 <br>HTML Page validator results run from W3C on source code.
 Index Html<br>
 <br>
-<img src= assets\images\readme-images\image-18.png alt= "Index html source code validation check" width= 600>
+<img src= assets\images\readme-images\index-html-check.png alt= "Index html source code validation check" width= 600>
 
 <br>Lineup HTML W3C validation checker shows two expected issues.<br>
 <br>
-<img src= assets\images\readme-images\image-19.png alt= "Lineup Html W3c results" width= 600>
+<img src= assets\images\readme-images\lineup-html-check.png alt= "Lineup Html W3c results" width= 600>
 
 The first error here is the unexpected value of a percentage rather than a whole number, however to keep this element adaptable and display perfectly on our various media queries a static number fails to work. I did experiment with using a CSS order for 
 `line-up-video {
@@ -205,7 +205,7 @@ The second error here refers to a lower section that I coded in for future relea
 
 <br>Gallery HTML validation Check Results<br>
 <br>
-<img src= assets\images\readme-images\image20.png alt= "gallery page html results" width= 600>
+<img src= assets\images\readme-images\gallery-html-check.png alt= "gallery page html results" width= 600>
 
 <br>Tickets HTML validation Check Results<br>
 <br>
@@ -214,7 +214,7 @@ The second error here refers to a lower section that I coded in for future relea
 **Accessibility - Lighthouse Rating**
 
 <br>
-<img src= assets\images\readme-images\{3D617FBF-22A3-463E-B99C-25E0D76F3B95}.png alt= "index.html About Page rating" width= 600>
+<img src= assets\images\readme-images\index-lighthouse-score.png alt= "index.html About Page rating" width= 600>
 
 - This rating demonstrates good accessibility, best practices, and SEO, however, the images in .png or .jpg format take too long to load and need to be saved as .webp files for optimisation.
 
@@ -243,6 +243,75 @@ The contrast does however come up as a failure as the red in the logo and the da
 
 **Testing User Stories from User Experience (UX)**
 
+How the specified user story requirements have been implemented on the Infernal Festival site:
+
+*Content Planning*
+Tour Dates, Ticket Prices, Festival Line-up: The website includes dedicated sections for "Line-Up" and "Tickets." The homepage prominently displays the festival dates (1st - 3rd August) and location (The Great Estate, Cornwall).
+
+Strong CTA Button Text: Clear call-to-action buttons such as "Buy Tickets" and "See Line-Up" are present, guiding users effectively.
+
+*Design*
+Navigation Bar: A clear navigation bar with links to "About," "Line-Up," "Tickets," and "Gallery" is present at the top of the page.
+
+Homepage CTA Sections: The homepage features prominent CTA buttons like "Buy Tickets" and "See Line-Up," facilitating easy access to key sections.
+
+Mobile Navigation: The website employs a responsive design, adapting to various screen sizes. On smaller screens, the navigation menu collapses into a hamburger menu, enhancing usability on mobile devices.
+
+*Development*
+Site-wide Header with Navigation Menu: A consistent header with navigation links is present across all pages, ensuring easy access to different sections.
+
+*Dedicated Pages*
+Ticket Prices: The "Tickets" page provides information on ticket purchasing, though specific pricing tiers or early bird discounts are not detailed yet.
+
+Festival Line-up: The "Line-Up" section lists performing artists, offering users insight into the event's musical offerings.
+
+Anchor Links and CTAs: The homepage includes anchor links and CTA buttons directing users to key pages like "Tickets" and "Line-Up."
+
+Sticky Header: The header remains fixed at the top of the page as users scroll, maintaining constant access to navigation options.
+
+*Accessibility*
+Keyboard Navigable and Screen Reader Friendly Navigation: The website's navigation is accessible via keyboard inputs, and semantic HTML elements are used, aiding screen reader compatibility.
+
+Focus Indicators: Interactive elements like links and buttons display visible focus indicators when navigated via keyboard, enhancing accessibility.
+
+Descriptive CTA Buttons: Buttons use specific, descriptive text such as "Buy Tickets" and "See Line-Up," avoiding vague phrases like "Click Here."
+
+*Testing*
+Usability Testing: The intuitive layout and clear navigation present a user-friendly design that facilitates quick access to tour dates, ticket information, and the festival line-up.
+
+Cross-Browser and Device Testing: The responsive design demonstrates that the site has been tested for functionality across various devices and screen sizes.
+
+Accessibility Audits: The implementation of accessibility features like keyboard navigation and focus indicators shows consideration of accessibility standards, achieving high Lighthouse accessibility rankings across all pages.
+
+*Performance*
+Optimized JavaScript and CSS: The website loads efficiently, indicating that scripts and stylesheets are optimized to prevent slowdowns, particularly in menu interactions.
+
+Optimized Images/Icons: Images and icons are appropriately sized and compressed, contributing to fast load times and overall performance.
+
+First-Time Visitor Experience
+Clear Festival Information: The homepage immediately presents the festival's name, dates, and location, providing essential information at a glance.
+
+Engaging Headline and Sub-headline: The "About Infernal Festival" section offers a concise and engaging description of the event's theme and atmosphere.
+
+"About the Festival" Section: An "About" section is accessible via the navigation bar, offering more detailed information about the festival.
+
+Visual Media: A "Gallery" section is available, showcasing images from past events to convey the festival's vibe and atmosphere.
+
+Responsive and Mobile-Friendly Layout: The site's design adjusts seamlessly to different screen sizes, ensuring usability on both desktop and mobile devices.
+
+Accessibility Standards: The use of alt text for images and appropriate color contrasts indicates adherence to accessibility guidelines.
+
+*Social Media Integration*
+Prominent Social Media Links: Social media icons linking to platforms like Instagram, TikTok, and Facebook are present, allowing users to explore the festival's online community.
+
+Standard Platform Logos: Recognizable icons are used for each social media platform, maintaining consistency and user familiarity.
+
+Accessible Links: Social media links are keyboard-navigable and include descriptive aria-labels, enhancing accessibility.
+
+*Returning/Frequent User Features*
+Sign-Up for Updates: The website includes a sign-up form for users to receive updates, collecting necessary information like name and email address.
+
+Attractive Sign-Up Section: The sign-up form is designed to be visually appealing and is placed prominently to encourage user engagement.
 
 **Bugs discovered**
 
@@ -267,31 +336,31 @@ An article by Sanders.T (Sanders, 2021) addresses precisely this issue and sugge
 
 On first run of checking my html code for Index.html I was presented with the following error (see image below) which addressed that I had failed to give each of my page titles a unique value and so I jumped back into my header code and changed values to Infernal Festival, Infernal Festival Lineup, " " Gallery .etc<br>
 <br>
-<img src= assets\images\readme-images\image-6.png alt= "Page Titles not unique" width= 600>
+<img src= assets\images\readme-images\page-titles-not-unique.png alt= "Page Titles not unique" width= 600>
 <br>
 
 <br>
-<img src= assets\images\readme-images\image-7.png alt= "Unneccesary ALT tag" width= 600>
+<img src= assets\images\readme-images\unnecessary-alt-tag.png alt= "Unneccesary ALT tag" width= 600>
 <br>
 
 <br>
-<img src= assets\images\readme-images\image-8.png alt= "Duplicate autoplay attributes" width= 600>
+<img src= assets\images\readme-images\duplicate-autoplay-attributes.png alt= "Duplicate autoplay attributes" width= 600>
 <br>
 
 <br>
-<img src= assets\images\readme-images\image-9.png alt= "Title situated outside of Head parameters" width= 600>
+<img src= assets\images\readme-images\title-outside-of-head.png alt= "Title situated outside of Head parameters" width= 600>
 <br>
 
 <br>
-<img src= assets\images\readme-images\image-10.png alt= "End tag required for </section> element" width= 600>
+<img src= assets\images\readme-images\end-tag-required.png alt= "End tag required for </section> element" width= 600>
 <br>
 
 <br>
-<img src= assets\images\readme-images\image-11.png alt= "Video height defined incorrectly" width= 600>
+<img src= assets\images\readme-images\video-height-incorrect.png alt= "Video height defined incorrectly" width= 600>
 <br>
 
 <br>
-<img src= assets\images\readme-images\image-12.png alt= "CSS Validation fix" width= 600>
+<img src= assets\images\readme-images\css-validation-fix.png alt= "CSS Validation fix" width= 600>
 <br>
 
 # Deployment
